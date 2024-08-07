@@ -1,0 +1,3 @@
+*.csv
+/biweekly_results
+/strain_GDELTDOCAPI/gdelt_doc_api_daily
