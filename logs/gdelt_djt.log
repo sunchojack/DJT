@@ -1,0 +1,1665 @@
+2026-01-12 14:53:19,104 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 14:53:19,104 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 14:53:19,105 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 14:53:19,106 - fetchers.gdelt_direct - INFO - Processing from 2024-03-13 00:00:00 to 2024-03-15 00:00:00
+2026-01-12 14:53:19,107 - fetchers.gdelt_direct - INFO - Processing from 2024-03-16 00:00:00 to 2024-03-18 00:00:00
+2026-01-12 14:53:19,107 - fetchers.gdelt_direct - INFO - Processing from 2024-03-19 00:00:00 to 2024-03-21 00:00:00
+2026-01-12 14:53:19,108 - fetchers.gdelt_direct - INFO - Processing from 2024-03-22 00:00:00 to 2024-03-24 00:00:00
+2026-01-12 14:56:57,156 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 14:56:57,156 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 14:56:57,157 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 14:56:57,157 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 14:56:57,157 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 14:56:57,160 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 14:57:05,740 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 14:57:05,745 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 14:57:06,647 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 14:57:06,650 - utils.helpers - INFO - Successfully fetched 321 GDELT records
+2026-01-12 14:57:06,650 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 14:57:06,650 - fetchers.stock - INFO - Fetching data for Trump Media & Technology (DJT)
+2026-01-12 14:57:07,020 - fetchers.stock - INFO - Stock data saved to data/processed/djt_stock.csv
+2026-01-12 14:57:07,020 - utils.helpers - INFO - Successfully fetched stock data with 120 records
+2026-01-12 14:57:07,020 - utils.helpers - INFO - Starting data processing
+2026-01-12 14:57:07,025 - processors.data_processor - INFO - Processed 321 GDELT records into 1 daily aggregates
+2026-01-12 14:57:07,025 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 14:57:07,027 - processors.data_processor - INFO - Processed stock data with 120 records
+2026-01-12 14:57:07,027 - processors.data_processor - ERROR - Error merging datasets: cannot insert Date, already exists
+2026-01-12 14:57:07,027 - utils.helpers - ERROR - Failed to merge datasets
+2026-01-12 14:57:07,027 - utils.helpers - ERROR - No data available for analysis
+2026-01-12 14:57:07,027 - utils.helpers - INFO - Analysis complete!
+2026-01-12 14:57:55,660 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 14:57:55,661 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 14:57:55,661 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 14:57:55,662 - utils.helpers - WARNING - No GDELT data was fetched
+2026-01-12 14:57:55,662 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 14:57:55,662 - fetchers.stock - INFO - Fetching data for Trump Media & Technology (DJT)
+2026-01-12 14:57:55,964 - fetchers.stock - INFO - Stock data saved to data/processed/djt_stock.csv
+2026-01-12 14:57:55,964 - utils.helpers - INFO - Successfully fetched stock data with 120 records
+2026-01-12 14:57:55,964 - utils.helpers - INFO - Starting data processing
+2026-01-12 14:57:55,964 - processors.data_processor - WARNING - Empty GDELT DataFrame provided
+2026-01-12 14:57:55,965 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 14:57:55,967 - processors.data_processor - INFO - Processed stock data with 120 records
+2026-01-12 14:57:55,967 - processors.data_processor - WARNING - Cannot merge empty datasets
+2026-01-12 14:57:55,967 - utils.helpers - ERROR - Failed to merge datasets
+2026-01-12 14:57:55,967 - utils.helpers - ERROR - No data available for analysis
+2026-01-12 14:57:55,967 - utils.helpers - INFO - Analysis complete!
+2026-01-12 15:37:51,996 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 15:37:51,997 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 15:37:51,998 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 15:37:51,999 - fetchers.gdelt_direct - INFO - Processing from 2024-01-04 00:00:00 to 2024-01-05 00:00:00
+2026-01-12 15:37:57,323 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240104_20240105.csv
+2026-01-12 15:37:57,326 - utils.helpers - INFO - Successfully fetched 57 GDELT records
+2026-01-12 15:37:57,326 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 15:37:57,326 - fetchers.stock - INFO - Fetching data for AAPL Stock (AAPL)
+2026-01-12 15:37:57,982 - fetchers.stock - INFO - Stock data saved to data/processed/aapl_stock.csv
+2026-01-12 15:37:57,982 - utils.helpers - INFO - Successfully fetched stock data with 120 records
+2026-01-12 15:37:57,982 - utils.helpers - INFO - Starting data processing
+2026-01-12 15:37:57,985 - processors.data_processor - INFO - Processed 57 GDELT records into 1 daily aggregates
+2026-01-12 15:37:57,985 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 15:37:57,987 - processors.data_processor - INFO - Processed stock data with 120 records
+2026-01-12 15:37:57,987 - processors.data_processor - ERROR - Error merging datasets: cannot insert Date, already exists
+2026-01-12 15:37:57,987 - utils.helpers - ERROR - Failed to merge datasets
+2026-01-12 15:37:57,988 - utils.helpers - ERROR - No data available for analysis
+2026-01-12 15:37:57,988 - utils.helpers - INFO - Analysis complete!
+2026-01-12 15:38:42,809 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 15:38:42,810 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 15:38:42,811 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 15:38:42,811 - utils.helpers - WARNING - No GDELT data was fetched
+2026-01-12 15:38:42,811 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 15:38:42,811 - fetchers.stock - INFO - Fetching data for AAPL Stock (AAPL)
+2026-01-12 15:38:43,265 - fetchers.stock - INFO - Stock data saved to data/processed/aapl_stock.csv
+2026-01-12 15:38:43,265 - utils.helpers - INFO - Successfully fetched stock data with 120 records
+2026-01-12 15:38:43,265 - utils.helpers - INFO - Starting data processing
+2026-01-12 15:38:43,265 - processors.data_processor - WARNING - Empty GDELT DataFrame provided
+2026-01-12 15:38:43,265 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 15:38:43,266 - processors.data_processor - INFO - Processed stock data with 120 records
+2026-01-12 15:38:43,266 - processors.data_processor - WARNING - Cannot merge empty datasets
+2026-01-12 15:38:43,267 - utils.helpers - ERROR - Failed to merge datasets
+2026-01-12 15:38:43,267 - utils.helpers - ERROR - No data available for analysis
+2026-01-12 15:38:43,267 - utils.helpers - INFO - Analysis complete!
+2026-01-12 15:38:47,037 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 15:38:47,037 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 15:38:47,038 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 15:38:47,039 - fetchers.gdelt_direct - INFO - Processing from 2024-01-31 00:00:00 to 2024-02-01 00:00:00
+2026-01-12 15:38:52,212 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240131_20240201.csv
+2026-01-12 15:38:52,215 - utils.helpers - INFO - Successfully fetched 146 GDELT records
+2026-01-12 15:38:52,215 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 15:38:52,215 - fetchers.stock - INFO - Fetching data for DJT Stock (DJT)
+2026-01-12 15:38:52,682 - fetchers.stock - INFO - Stock data saved to data/processed/djt_stock.csv
+2026-01-12 15:38:52,683 - utils.helpers - INFO - Successfully fetched stock data with 120 records
+2026-01-12 15:38:52,683 - utils.helpers - INFO - Starting data processing
+2026-01-12 15:38:52,686 - processors.data_processor - INFO - Processed 146 GDELT records into 1 daily aggregates
+2026-01-12 15:38:52,687 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 15:38:52,688 - processors.data_processor - INFO - Processed stock data with 120 records
+2026-01-12 15:38:52,688 - processors.data_processor - ERROR - Error merging datasets: cannot insert Date, already exists
+2026-01-12 15:38:52,688 - utils.helpers - ERROR - Failed to merge datasets
+2026-01-12 15:38:52,688 - utils.helpers - ERROR - No data available for analysis
+2026-01-12 15:38:52,688 - utils.helpers - INFO - Analysis complete!
+2026-01-12 15:39:25,265 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 15:39:25,265 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 15:39:25,266 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 15:39:25,267 - utils.helpers - WARNING - No GDELT data was fetched
+2026-01-12 15:39:25,267 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 15:39:25,267 - fetchers.stock - INFO - Fetching data for DJT Stock (DJT)
+2026-01-12 15:39:25,585 - fetchers.stock - INFO - Stock data saved to data/processed/djt_stock.csv
+2026-01-12 15:39:25,586 - utils.helpers - INFO - Successfully fetched stock data with 120 records
+2026-01-12 15:39:25,586 - utils.helpers - INFO - Starting data processing
+2026-01-12 15:39:25,586 - processors.data_processor - WARNING - Empty GDELT DataFrame provided
+2026-01-12 15:39:25,586 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 15:39:25,587 - processors.data_processor - INFO - Processed stock data with 120 records
+2026-01-12 15:39:25,587 - processors.data_processor - WARNING - Cannot merge empty datasets
+2026-01-12 15:39:25,588 - utils.helpers - ERROR - Failed to merge datasets
+2026-01-12 15:39:25,588 - utils.helpers - ERROR - No data available for analysis
+2026-01-12 15:39:25,588 - utils.helpers - INFO - Analysis complete!
+2026-01-12 16:38:05,192 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 16:38:05,193 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 16:38:05,199 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 16:38:05,201 - fetchers.gdelt_direct - INFO - Processing from 2024-03-13 00:00:00 to 2024-03-15 00:00:00
+2026-01-12 16:38:05,201 - fetchers.gdelt_direct - INFO - Processing from 2024-03-16 00:00:00 to 2024-03-18 00:00:00
+2026-01-12 16:38:05,204 - fetchers.gdelt_direct - INFO - Processing from 2024-03-19 00:00:00 to 2024-03-21 00:00:00
+2026-01-12 16:38:05,205 - fetchers.gdelt_direct - INFO - Processing from 2024-03-22 00:00:00 to 2024-03-24 00:00:00
+2026-01-12 16:38:14,639 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240319_20240321.csv
+2026-01-12 16:38:14,642 - fetchers.gdelt_direct - INFO - Processing from 2024-03-25 00:00:00 to 2024-03-27 00:00:00
+2026-01-12 16:38:18,923 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240316_20240318.csv
+2026-01-12 16:38:18,943 - fetchers.gdelt_direct - INFO - Processing from 2024-03-28 00:00:00 to 2024-03-30 00:00:00
+2026-01-12 16:38:18,946 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240313_20240315.csv
+2026-01-12 16:38:18,952 - fetchers.gdelt_direct - INFO - Processing from 2024-03-31 00:00:00 to 2024-04-02 00:00:00
+2026-01-12 16:38:18,954 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240322_20240324.csv
+2026-01-12 16:38:18,957 - fetchers.gdelt_direct - INFO - Processing from 2024-04-03 00:00:00 to 2024-04-05 00:00:00
+2026-01-12 16:38:22,551 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240325_20240327.csv
+2026-01-12 16:38:22,556 - fetchers.gdelt_direct - INFO - Processing from 2024-04-06 00:00:00 to 2024-04-08 00:00:00
+2026-01-12 16:38:33,709 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240328_20240330.csv
+2026-01-12 16:38:33,717 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240403_20240405.csv
+2026-01-12 16:38:33,717 - fetchers.gdelt_direct - INFO - Processing from 2024-04-09 00:00:00 to 2024-04-11 00:00:00
+2026-01-12 16:38:33,726 - fetchers.gdelt_direct - INFO - Processing from 2024-04-12 00:00:00 to 2024-04-14 00:00:00
+2026-01-12 16:38:36,276 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240406_20240408.csv
+2026-01-12 16:38:36,344 - fetchers.gdelt_direct - INFO - Processing from 2024-04-15 00:00:00 to 2024-04-17 00:00:00
+2026-01-12 16:38:41,291 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240331_20240402.csv
+2026-01-12 16:38:41,510 - fetchers.gdelt_direct - INFO - Processing from 2024-04-18 00:00:00 to 2024-04-20 00:00:00
+2026-01-12 16:38:48,773 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240409_20240411.csv
+2026-01-12 16:38:48,779 - fetchers.gdelt_direct - INFO - Processing from 2024-04-21 00:00:00 to 2024-04-23 00:00:00
+2026-01-12 16:38:48,781 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240412_20240414.csv
+2026-01-12 16:38:48,787 - fetchers.gdelt_direct - INFO - Processing from 2024-04-24 00:00:00 to 2024-04-26 00:00:00
+2026-01-12 16:38:55,916 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240418_20240420.csv
+2026-01-12 16:38:55,926 - fetchers.gdelt_direct - INFO - Processing from 2024-04-27 00:00:00 to 2024-04-29 00:00:00
+2026-01-12 16:38:56,780 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240415_20240417.csv
+2026-01-12 16:38:56,785 - fetchers.gdelt_direct - INFO - Processing from 2024-04-30 00:00:00 to 2024-05-02 00:00:00
+2026-01-12 16:39:07,797 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240421_20240423.csv
+2026-01-12 16:39:07,803 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240424_20240426.csv
+2026-01-12 16:39:07,810 - fetchers.gdelt_direct - INFO - Processing from 2024-05-03 00:00:00 to 2024-05-05 00:00:00
+2026-01-12 16:39:07,824 - fetchers.gdelt_direct - INFO - Processing from 2024-05-06 00:00:00 to 2024-05-08 00:00:00
+2026-01-12 16:39:13,817 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240427_20240429.csv
+2026-01-12 16:39:13,818 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240430_20240502.csv
+2026-01-12 16:39:13,822 - fetchers.gdelt_direct - INFO - Processing from 2024-05-09 00:00:00 to 2024-05-11 00:00:00
+2026-01-12 16:39:13,832 - fetchers.gdelt_direct - INFO - Processing from 2024-05-12 00:00:00 to 2024-05-14 00:00:00
+2026-01-12 16:39:22,049 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240503_20240505.csv
+2026-01-12 16:39:22,060 - fetchers.gdelt_direct - INFO - Processing from 2024-05-15 00:00:00 to 2024-05-17 00:00:00
+2026-01-12 16:39:22,075 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240506_20240508.csv
+2026-01-12 16:39:22,079 - fetchers.gdelt_direct - INFO - Processing from 2024-05-18 00:00:00 to 2024-05-20 00:00:00
+2026-01-12 16:39:26,941 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240512_20240514.csv
+2026-01-12 16:39:26,941 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240509_20240511.csv
+2026-01-12 16:39:26,955 - fetchers.gdelt_direct - INFO - Processing from 2024-05-21 00:00:00 to 2024-05-23 00:00:00
+2026-01-12 16:39:26,955 - fetchers.gdelt_direct - INFO - Processing from 2024-05-24 00:00:00 to 2024-05-26 00:00:00
+2026-01-12 16:39:33,285 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240515_20240517.csv
+2026-01-12 16:39:33,304 - fetchers.gdelt_direct - INFO - Processing from 2024-05-27 00:00:00 to 2024-05-29 00:00:00
+2026-01-12 16:39:33,346 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240518_20240520.csv
+2026-01-12 16:39:33,348 - fetchers.gdelt_direct - INFO - Processing from 2024-05-30 00:00:00 to 2024-06-01 00:00:00
+2026-01-12 16:40:42,168 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 16:40:42,169 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 16:40:42,175 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 16:40:42,178 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 16:40:42,182 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 16:40:45,740 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 16:40:45,981 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 16:40:45,982 - utils.helpers - INFO - Successfully fetched 20 GDELT records
+2026-01-12 16:40:45,982 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 16:40:45,982 - fetchers.stock - INFO - Fetching data for AAPL Stock (AAPL)
+2026-01-12 16:40:46,419 - fetchers.stock - INFO - Stock data saved to data/processed/aapl_stock.csv
+2026-01-12 16:40:46,419 - utils.helpers - INFO - Successfully fetched stock data with 120 records
+2026-01-12 16:40:46,419 - utils.helpers - INFO - Starting data processing
+2026-01-12 16:40:46,420 - processors.data_processor - INFO - Processed 20 GDELT records into 1 daily aggregates
+2026-01-12 16:40:46,421 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 16:40:46,421 - processors.data_processor - INFO - Processed stock data with 120 records
+2026-01-12 16:40:46,421 - processors.data_processor - ERROR - Error merging datasets: cannot insert Date, already exists
+2026-01-12 16:40:46,425 - processors.data_processor - ERROR - Traceback (most recent call last):
+  File "/Users/aleksandrarsenev/Desktop/PycharmProjects/legacy/DJT/release/src/processors/data_processor.py", line 145, in merge_datasets
+    stock_df = stock_df.reset_index()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aleksandrarsenev/Desktop/PycharmProjects/legacy/DJT/.venv/lib/python3.12/site-packages/pandas/core/frame.py", line 6494, in reset_index
+    new_obj.insert(
+  File "/Users/aleksandrarsenev/Desktop/PycharmProjects/legacy/DJT/.venv/lib/python3.12/site-packages/pandas/core/frame.py", line 5180, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert Date, already exists
+
+2026-01-12 16:40:46,425 - utils.helpers - ERROR - Failed to merge datasets
+2026-01-12 16:40:46,425 - utils.helpers - ERROR - No data available for analysis
+2026-01-12 16:40:46,425 - utils.helpers - INFO - Analysis complete!
+2026-01-12 16:45:29,280 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240412_20240414.csv
+2026-01-12 16:45:29,282 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240212_20240214.csv
+2026-01-12 16:45:29,283 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240415_20240417.csv
+2026-01-12 16:45:29,284 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 16:45:29,286 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 16:45:29,286 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240215_20240217.csv
+2026-01-12 16:45:29,287 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240331_20240402.csv
+2026-01-12 16:45:29,288 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240421_20240423.csv
+2026-01-12 16:45:29,288 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240221_20240223.csv
+2026-01-12 16:45:29,289 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240113_20240115.csv
+2026-01-12 16:45:29,289 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 16:45:29,290 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240116_20240118.csv
+2026-01-12 16:45:29,291 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 16:45:29,291 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240101_20240103.csv
+2026-01-12 16:45:29,292 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240313_20240315.csv
+2026-01-12 16:45:29,292 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240131_20240202.csv
+2026-01-12 16:45:29,292 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240301_20240303.csv
+2026-01-12 16:45:29,295 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240131_20240201.csv
+2026-01-12 16:45:29,295 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240316_20240318.csv
+2026-01-12 16:45:29,295 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240512_20240514.csv
+2026-01-12 16:45:29,295 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240430_20240502.csv
+2026-01-12 16:45:29,296 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240515_20240517.csv
+2026-01-12 16:45:29,296 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240506_20240508.csv
+2026-01-12 16:45:29,296 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240209_20240211.csv
+2026-01-12 16:45:29,296 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240304_20240306.csv
+2026-01-12 16:45:29,296 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240409_20240411.csv
+2026-01-12 16:45:29,297 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240503_20240505.csv
+2026-01-12 16:45:29,297 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240119_20240121.csv
+2026-01-12 16:45:29,297 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240322_20240324.csv
+2026-01-12 16:45:29,299 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240310_20240312.csv
+2026-01-12 16:45:29,299 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240307_20240309.csv
+2026-01-12 16:45:29,299 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240325_20240327.csv
+2026-01-12 16:45:29,300 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240128_20240130.csv
+2026-01-12 16:45:29,300 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240418_20240420.csv
+2026-01-12 16:45:29,300 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240218_20240220.csv
+2026-01-12 16:45:29,300 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240107_20240109.csv
+2026-01-12 16:45:29,301 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 16:45:29,301 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240122_20240124.csv
+2026-01-12 16:45:29,301 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240110_20240112.csv
+2026-01-12 16:45:29,301 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240227_20240229.csv
+2026-01-12 16:45:29,301 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240328_20240330.csv
+2026-01-12 16:45:29,302 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240125_20240127.csv
+2026-01-12 16:45:29,302 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240427_20240429.csv
+2026-01-12 16:45:29,302 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240518_20240520.csv
+2026-01-12 16:45:29,302 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240509_20240511.csv
+2026-01-12 16:45:29,302 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240206_20240208.csv
+2026-01-12 16:45:29,303 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240104_20240106.csv
+2026-01-12 16:45:29,303 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240406_20240408.csv
+2026-01-12 16:45:29,303 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240319_20240321.csv
+2026-01-12 16:45:29,303 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240424_20240426.csv
+2026-01-12 16:45:29,303 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240403_20240405.csv
+2026-01-12 16:45:29,303 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240203_20240205.csv
+2026-01-12 16:45:29,304 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240224_20240226.csv
+2026-01-12 16:45:29,304 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20240104_20240105.csv
+2026-01-12 16:45:29,305 - utils.helpers - INFO - Removed file: data/processed/aapl_stock.csv
+2026-01-12 16:45:29,305 - utils.helpers - INFO - Removed file: data/processed/djt_stock.csv
+2026-01-12 16:45:29,305 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 16:45:29,305 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 16:45:29,306 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 16:45:29,307 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 16:45:29,308 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 16:45:29,308 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 16:45:29,309 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 16:45:44,131 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 16:45:44,135 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 16:45:44,143 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 16:45:44,146 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 16:45:44,150 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 16:45:46,467 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 16:45:46,473 - utils.helpers - INFO - Successfully fetched 2444 GDELT records
+2026-01-12 16:45:46,473 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 16:45:46,473 - fetchers.stock - INFO - Fetching data for DJT Stock (DJT)
+2026-01-12 16:45:46,752 - fetchers.stock - INFO - Stock data saved to data/processed/djt_stock.csv
+2026-01-12 16:45:46,752 - utils.helpers - INFO - Successfully fetched stock data with 120 records
+2026-01-12 16:45:46,752 - utils.helpers - INFO - Starting data processing
+2026-01-12 16:45:46,758 - processors.data_processor - INFO - Processed 2444 GDELT records into 1 daily aggregates
+2026-01-12 16:45:46,759 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 16:45:46,760 - processors.data_processor - INFO - Processed stock data with 120 records
+2026-01-12 16:45:46,760 - processors.data_processor - ERROR - Error merging datasets: cannot insert Date, already exists
+2026-01-12 16:45:46,763 - processors.data_processor - ERROR - Traceback (most recent call last):
+  File "/Users/aleksandrarsenev/Desktop/PycharmProjects/legacy/DJT/release/src/processors/data_processor.py", line 145, in merge_datasets
+    stock_df = stock_df.reset_index()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aleksandrarsenev/Desktop/PycharmProjects/legacy/DJT/.venv/lib/python3.12/site-packages/pandas/core/frame.py", line 6494, in reset_index
+    new_obj.insert(
+  File "/Users/aleksandrarsenev/Desktop/PycharmProjects/legacy/DJT/.venv/lib/python3.12/site-packages/pandas/core/frame.py", line 5180, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert Date, already exists
+
+2026-01-12 16:45:46,763 - utils.helpers - ERROR - Failed to merge datasets
+2026-01-12 16:45:46,763 - utils.helpers - ERROR - No data available for analysis
+2026-01-12 16:45:46,764 - utils.helpers - INFO - Analysis complete!
+2026-01-12 16:49:35,547 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 16:49:35,548 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 16:49:35,548 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 16:49:35,549 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 16:49:35,549 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 16:49:35,549 - utils.helpers - INFO - Removed file: data/processed/djt_stock.csv
+2026-01-12 16:49:35,549 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 16:49:35,549 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 16:49:35,550 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 16:49:35,551 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 16:49:35,551 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 16:49:35,553 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 16:49:35,553 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 16:49:50,191 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 16:49:50,197 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 16:49:50,453 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 16:49:50,467 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 16:49:50,467 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 16:49:52,712 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 16:49:52,716 - utils.helpers - INFO - Successfully fetched 2444 GDELT records
+2026-01-12 16:49:52,716 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 16:49:52,716 - fetchers.stock - INFO - Fetching data for DJT Stock (DJT)
+2026-01-12 16:49:53,005 - fetchers.stock - INFO - Stock data saved to data/processed/djt_stock.csv
+2026-01-12 16:49:53,005 - utils.helpers - INFO - Successfully fetched stock data with 120 records
+2026-01-12 16:49:53,005 - utils.helpers - INFO - Starting data processing
+2026-01-12 16:49:53,011 - processors.data_processor - INFO - Processed 2444 GDELT records into 1 daily aggregates
+2026-01-12 16:49:53,012 - processors.data_processor - ERROR - Error processing GDELT data: name 'os' is not defined
+2026-01-12 16:49:53,012 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 16:49:53,013 - processors.data_processor - INFO - Processed stock data with 120 records
+2026-01-12 16:49:53,013 - processors.data_processor - ERROR - Error processing stock data: name 'os' is not defined
+2026-01-12 16:49:53,013 - processors.data_processor - WARNING - Cannot merge empty datasets
+2026-01-12 16:49:53,013 - utils.helpers - ERROR - Failed to merge datasets
+2026-01-12 16:49:53,013 - utils.helpers - ERROR - No data available for analysis
+2026-01-12 16:49:53,013 - utils.helpers - INFO - Analysis complete!
+2026-01-12 16:50:05,659 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 16:50:05,659 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 16:50:05,659 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 16:50:05,660 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 16:50:05,660 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 16:50:05,660 - utils.helpers - INFO - Removed file: data/processed/djt_stock.csv
+2026-01-12 16:50:05,660 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 16:50:05,660 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 16:50:05,660 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 16:50:05,661 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 16:50:05,661 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 16:50:05,661 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 16:50:05,662 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 16:50:20,101 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 16:50:20,106 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 16:50:20,112 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 16:50:20,290 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 16:50:20,298 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 16:50:22,621 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 16:50:22,626 - utils.helpers - INFO - Successfully fetched 2444 GDELT records
+2026-01-12 16:50:22,626 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 16:50:22,626 - fetchers.stock - INFO - Fetching data for DJT Stock (DJT)
+2026-01-12 16:50:22,965 - fetchers.stock - INFO - Stock data saved to data/processed/djt_stock.csv
+2026-01-12 16:50:22,966 - utils.helpers - INFO - Successfully fetched stock data with 120 records
+2026-01-12 16:50:22,966 - utils.helpers - INFO - Starting data processing
+2026-01-12 16:50:22,971 - processors.data_processor - INFO - Processed 2444 GDELT records into 1 daily aggregates
+2026-01-12 16:50:22,972 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 16:50:22,973 - processors.data_processor - INFO - Processed stock data with 120 records
+2026-01-12 16:50:22,974 - processors.data_processor - ERROR - Error merging datasets: cannot insert Date, already exists
+2026-01-12 16:50:22,978 - processors.data_processor - ERROR - Traceback (most recent call last):
+  File "/Users/aleksandrarsenev/Desktop/PycharmProjects/legacy/DJT/release/src/processors/data_processor.py", line 152, in merge_datasets
+    stock_df = stock_df.reset_index()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aleksandrarsenev/Desktop/PycharmProjects/legacy/DJT/.venv/lib/python3.12/site-packages/pandas/core/frame.py", line 6494, in reset_index
+    new_obj.insert(
+  File "/Users/aleksandrarsenev/Desktop/PycharmProjects/legacy/DJT/.venv/lib/python3.12/site-packages/pandas/core/frame.py", line 5180, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert Date, already exists
+
+2026-01-12 16:50:22,978 - utils.helpers - ERROR - Failed to merge datasets
+2026-01-12 16:50:22,978 - utils.helpers - ERROR - No data available for analysis
+2026-01-12 16:50:22,978 - utils.helpers - INFO - Analysis complete!
+2026-01-12 16:50:44,793 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 16:50:44,793 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 16:50:44,793 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 16:50:44,793 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 16:50:44,794 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 16:50:44,794 - utils.helpers - INFO - Removed file: data/processed/djt_stock.csv
+2026-01-12 16:50:44,794 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 16:50:44,794 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 16:50:44,794 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 16:50:44,795 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 16:50:44,795 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 16:50:44,796 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 16:50:44,796 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 16:50:59,198 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 16:50:59,204 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 16:50:59,472 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 16:50:59,473 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 16:50:59,487 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 16:51:01,784 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 16:51:01,788 - utils.helpers - INFO - Successfully fetched 2444 GDELT records
+2026-01-12 16:51:01,788 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 16:51:01,789 - fetchers.stock - INFO - Fetching data for DJT Stock (DJT)
+2026-01-12 16:51:02,072 - fetchers.stock - INFO - Stock data saved to data/processed/djt_stock.csv
+2026-01-12 16:51:02,073 - utils.helpers - INFO - Successfully fetched stock data with 120 records
+2026-01-12 16:51:02,073 - utils.helpers - INFO - Starting data processing
+2026-01-12 16:51:02,078 - processors.data_processor - INFO - Processed 2444 GDELT records into 1 daily aggregates
+2026-01-12 16:51:02,079 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 16:51:02,080 - processors.data_processor - INFO - Processed stock data with 120 records
+2026-01-12 16:51:02,084 - processors.data_processor - INFO - Merged datasets resulting in 0 records
+2026-01-12 16:51:02,084 - utils.helpers - ERROR - Failed to merge datasets
+2026-01-12 16:51:02,084 - utils.helpers - ERROR - No data available for analysis
+2026-01-12 16:51:02,084 - utils.helpers - INFO - Analysis complete!
+2026-01-12 16:52:20,347 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 16:52:20,348 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 16:52:20,348 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 16:52:20,349 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 16:52:20,349 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 16:52:20,349 - utils.helpers - INFO - Removed file: data/processed/djt_stock.csv
+2026-01-12 16:52:20,349 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 16:52:20,349 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 16:52:20,350 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 16:52:20,350 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 16:52:20,350 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 16:52:20,352 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 16:52:20,353 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 16:52:35,471 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 16:52:35,474 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 16:52:35,475 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 16:52:35,479 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 16:52:35,485 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 16:52:38,250 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 16:52:38,256 - utils.helpers - INFO - Successfully fetched 2444 GDELT records
+2026-01-12 16:52:38,256 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 16:52:38,256 - fetchers.stock - INFO - Fetching data for DJT Stock (DJT)
+2026-01-12 16:52:38,567 - fetchers.stock - INFO - Stock data saved to data/processed/djt_stock.csv
+2026-01-12 16:52:38,567 - utils.helpers - INFO - Successfully fetched stock data with 9 records
+2026-01-12 16:52:38,567 - utils.helpers - INFO - Starting data processing
+2026-01-12 16:52:38,574 - processors.data_processor - INFO - Processed 2444 GDELT records into 1 daily aggregates
+2026-01-12 16:52:38,574 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 16:52:38,575 - processors.data_processor - INFO - Processed stock data with 9 records
+2026-01-12 16:52:38,578 - processors.data_processor - INFO - Merged datasets resulting in 0 records
+2026-01-12 16:52:38,578 - utils.helpers - ERROR - Failed to merge datasets
+2026-01-12 16:52:38,578 - utils.helpers - ERROR - No data available for analysis
+2026-01-12 16:52:38,578 - utils.helpers - INFO - Analysis complete!
+2026-01-12 16:53:53,063 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 16:53:53,064 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 16:53:53,064 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 16:53:53,064 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 16:53:53,064 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 16:53:53,065 - utils.helpers - INFO - Removed file: data/processed/djt_stock.csv
+2026-01-12 16:53:53,065 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 16:53:53,065 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 16:53:53,065 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 16:53:53,066 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 16:53:53,066 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 16:53:53,067 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 16:53:53,068 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 16:54:07,013 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 16:54:07,019 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 16:54:08,154 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 16:54:08,171 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 16:54:08,253 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 16:54:11,481 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 16:54:11,567 - utils.helpers - INFO - Successfully fetched 2444 GDELT records
+2026-01-12 16:54:11,568 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 16:54:11,568 - fetchers.stock - INFO - Fetching data for DJT Stock (DJT)
+2026-01-12 16:54:11,943 - fetchers.stock - INFO - Stock data saved to data/processed/djt_stock.csv
+2026-01-12 16:54:11,943 - utils.helpers - INFO - Successfully fetched stock data with 9 records
+2026-01-12 16:54:11,943 - utils.helpers - INFO - Starting data processing
+2026-01-12 16:54:11,953 - processors.data_processor - INFO - Processed 2444 GDELT records into 5 daily aggregates
+2026-01-12 16:54:11,956 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 16:54:11,957 - processors.data_processor - INFO - Processed stock data with 9 records
+2026-01-12 16:54:11,964 - processors.data_processor - INFO - Merged datasets resulting in 3 records
+2026-01-12 16:54:11,967 - processors.data_processor - INFO - Calculated differences for 2 records
+2026-01-12 16:54:11,967 - utils.helpers - INFO - Final processed dataset contains 2 records
+2026-01-12 16:54:11,967 - utils.helpers - INFO - Starting analysis
+2026-01-12 16:54:11,969 - analyzers.data_analyzer - INFO - Correlation: -1.000
+2026-01-12 16:54:11,970 - analyzers.data_analyzer - INFO - Differences correlation: -1.000
+2026-01-12 16:54:11,977 - analyzers.data_analyzer - INFO - Level regression - R²: 1.000, p-value: 0.0000
+2026-01-12 16:54:11,978 - analyzers.data_analyzer - INFO - Differences regression - R²: 1.000, p-value: 0.0000
+2026-01-12 16:54:12,481 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 16:54:12,481 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 16:54:12,485 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 16:54:12,485 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 16:54:52,097 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 16:54:52,099 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 16:54:52,102 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 16:54:52,103 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 16:55:00,420 - utils.helpers - INFO - Analysis results saved to data/plots/analysis_results.json
+2026-01-12 16:55:00,421 - utils.helpers - INFO - Analysis complete!
+2026-01-12 17:01:28,896 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 17:01:28,898 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 17:01:28,899 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 17:01:28,900 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 17:01:28,901 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 17:01:28,902 - utils.helpers - INFO - Removed file: data/processed/djt_stock.csv
+2026-01-12 17:01:28,902 - utils.helpers - INFO - Removed file: data/plots/time_series.png
+2026-01-12 17:01:28,903 - utils.helpers - INFO - Removed file: data/plots/analysis_results.json
+2026-01-12 17:01:28,903 - utils.helpers - INFO - Removed file: data/plots/correlation_heatmap.png
+2026-01-12 17:01:28,904 - utils.helpers - INFO - Removed file: data/plots/stock_vs_tone.png
+2026-01-12 17:01:28,904 - utils.helpers - INFO - Removed file: data/plots/differences.png
+2026-01-12 17:01:28,904 - utils.helpers - INFO - Removed file: data/plots/scatter.png
+2026-01-12 17:01:28,904 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 17:01:28,905 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 17:01:28,907 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 17:01:28,907 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 17:01:28,908 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 17:01:28,910 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 17:01:28,911 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 17:01:45,224 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 17:01:45,223 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 17:01:45,262 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 17:01:47,320 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 17:01:47,329 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 17:01:49,025 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 17:01:49,038 - utils.helpers - INFO - Successfully fetched 1056 GDELT records
+2026-01-12 17:01:49,038 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 17:01:49,039 - fetchers.stock - INFO - Fetching data for ARAMCO Stock (ARAMCO)
+2026-01-12 17:01:50,214 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ARAMCO"}}}
+2026-01-12 17:01:50,434 - yfinance - ERROR - $ARAMCO: possibly delisted; no timezone found
+2026-01-12 17:01:50,440 - yfinance - ERROR - 
+1 Failed download:
+2026-01-12 17:01:50,440 - yfinance - ERROR - ['ARAMCO']: possibly delisted; no timezone found
+2026-01-12 17:01:50,447 - fetchers.stock - WARNING - No data returned for ARAMCO Stock (ARAMCO)
+2026-01-12 17:01:50,447 - utils.helpers - WARNING - No stock data was fetched
+2026-01-12 17:01:50,447 - utils.helpers - INFO - Starting data processing
+2026-01-12 17:01:50,454 - processors.data_processor - INFO - Processed 1056 GDELT records into 5 daily aggregates
+2026-01-12 17:01:50,454 - processors.data_processor - WARNING - Empty stock DataFrame provided
+2026-01-12 17:01:50,454 - processors.data_processor - WARNING - Cannot merge empty datasets
+2026-01-12 17:01:50,455 - utils.helpers - ERROR - Failed to merge datasets
+2026-01-12 17:01:50,455 - utils.helpers - ERROR - No data available for analysis
+2026-01-12 17:01:50,455 - utils.helpers - INFO - Analysis complete!
+2026-01-12 17:03:35,296 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 17:03:35,296 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 17:03:35,296 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 17:03:35,297 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 17:03:35,297 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 17:03:35,297 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 17:03:35,297 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 17:03:35,298 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 17:03:35,298 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 17:03:35,301 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 17:03:35,301 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 17:03:35,302 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 17:03:52,628 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 17:03:52,647 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 17:03:52,895 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 17:03:52,915 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 17:03:52,915 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 17:03:55,904 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 17:03:55,924 - utils.helpers - INFO - Successfully fetched 2444 GDELT records
+2026-01-12 17:03:55,924 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 17:03:55,925 - fetchers.stock - INFO - Fetching data for DJT Stock (DJT)
+2026-01-12 17:03:56,246 - fetchers.stock - INFO - Stock data saved to data/processed/djt_stock.csv
+2026-01-12 17:03:56,247 - utils.helpers - INFO - Successfully fetched stock data with 9 records
+2026-01-12 17:03:56,247 - utils.helpers - INFO - Starting data processing
+2026-01-12 17:03:56,254 - processors.data_processor - INFO - Processed 2444 GDELT records into 5 daily aggregates
+2026-01-12 17:03:56,254 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 17:03:56,255 - processors.data_processor - INFO - Processed stock data with 9 records
+2026-01-12 17:03:56,258 - processors.data_processor - INFO - Merged datasets resulting in 3 records
+2026-01-12 17:03:56,259 - processors.data_processor - INFO - Calculated differences for 2 records
+2026-01-12 17:03:56,259 - utils.helpers - INFO - Final processed dataset contains 2 records
+2026-01-12 17:03:56,259 - utils.helpers - INFO - Starting analysis
+2026-01-12 17:03:56,261 - analyzers.data_analyzer - INFO - Correlation: -1.000
+2026-01-12 17:03:56,262 - analyzers.data_analyzer - INFO - Differences correlation: -1.000
+2026-01-12 17:03:56,263 - analyzers.data_analyzer - INFO - Level regression - R²: 1.000, p-value: 0.0000
+2026-01-12 17:03:56,264 - analyzers.data_analyzer - INFO - Differences regression - R²: 1.000, p-value: 0.0000
+2026-01-12 17:03:56,661 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:03:56,662 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:03:56,667 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:03:56,667 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:06:15,068 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 17:06:15,068 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 17:06:15,069 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 17:06:15,069 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 17:06:15,069 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 17:06:15,069 - utils.helpers - INFO - Removed file: data/processed/djt_stock.csv
+2026-01-12 17:06:15,069 - utils.helpers - INFO - Removed file: data/plots/time_series.png
+2026-01-12 17:06:15,069 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 17:06:15,069 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 17:06:15,071 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 17:06:15,073 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 17:06:15,074 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 17:06:15,074 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 17:06:15,074 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 17:06:29,490 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 17:06:29,496 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 17:06:29,498 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 17:06:29,647 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 17:06:29,652 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 17:06:32,335 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 17:06:32,342 - utils.helpers - INFO - Successfully fetched 2444 GDELT records
+2026-01-12 17:06:32,342 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 17:06:32,342 - fetchers.stock - INFO - Fetching data for INVALID Stock (INVALID)
+2026-01-12 17:06:33,626 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: INVALID"}}}
+2026-01-12 17:06:33,825 - yfinance - ERROR - $INVALID: possibly delisted; no timezone found
+2026-01-12 17:06:33,830 - yfinance - ERROR - 
+1 Failed download:
+2026-01-12 17:06:33,830 - yfinance - ERROR - ['INVALID']: possibly delisted; no timezone found
+2026-01-12 17:06:33,838 - fetchers.stock - WARNING - No data returned for INVALID Stock (INVALID)
+2026-01-12 17:06:33,838 - utils.helpers - WARNING - No stock data was fetched
+2026-01-12 17:06:33,838 - utils.helpers - INFO - Starting data processing
+2026-01-12 17:06:33,847 - processors.data_processor - INFO - Processed 2444 GDELT records into 5 daily aggregates
+2026-01-12 17:06:33,848 - processors.data_processor - WARNING - Empty stock DataFrame provided
+2026-01-12 17:06:33,848 - processors.data_processor - WARNING - Cannot merge empty datasets
+2026-01-12 17:06:33,848 - utils.helpers - ERROR - Failed to merge datasets
+2026-01-12 17:06:33,849 - utils.helpers - ERROR - No data available for analysis
+2026-01-12 17:06:33,849 - utils.helpers - INFO - Analysis complete!
+2026-01-12 17:09:19,009 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20251229_20251231.csv
+2026-01-12 17:09:19,010 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260104_20260106.csv
+2026-01-12 17:09:19,010 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260110_20260112.csv
+2026-01-12 17:09:19,010 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260107_20260109.csv
+2026-01-12 17:09:19,010 - utils.helpers - INFO - Removed file: data/raw/gdelt_direct_20260101_20260103.csv
+2026-01-12 17:09:19,010 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 17:09:19,010 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 17:09:19,012 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 17:09:19,012 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-30 00:00:00
+2026-01-12 17:09:19,014 - fetchers.gdelt_direct - INFO - Processing from 2025-12-30 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 17:09:19,014 - fetchers.gdelt_direct - INFO - Processing from 2025-12-31 00:00:00 to 2026-01-01 00:00:00
+2026-01-12 17:09:19,014 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-02 00:00:00
+2026-01-12 17:09:27,555 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260101_20260102.csv
+2026-01-12 17:09:27,560 - fetchers.gdelt_direct - INFO - Processing from 2026-01-02 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 17:09:28,481 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20251231_20260101.csv
+2026-01-12 17:09:28,484 - fetchers.gdelt_direct - INFO - Processing from 2026-01-03 00:00:00 to 2026-01-04 00:00:00
+2026-01-12 17:09:29,363 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20251230_20251231.csv
+2026-01-12 17:09:29,365 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-05 00:00:00
+2026-01-12 17:09:29,368 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20251229_20251230.csv
+2026-01-12 17:09:29,369 - fetchers.gdelt_direct - INFO - Processing from 2026-01-05 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 17:09:31,742 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260102_20260103.csv
+2026-01-12 17:09:31,744 - fetchers.gdelt_direct - INFO - Processing from 2026-01-06 00:00:00 to 2026-01-07 00:00:00
+2026-01-12 17:09:32,628 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260103_20260104.csv
+2026-01-12 17:09:32,630 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-08 00:00:00
+2026-01-12 17:09:36,138 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260104_20260105.csv
+2026-01-12 17:09:36,147 - fetchers.gdelt_direct - INFO - Processing from 2026-01-08 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 17:09:39,640 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260106_20260107.csv
+2026-01-12 17:09:39,645 - fetchers.gdelt_direct - INFO - Processing from 2026-01-09 00:00:00 to 2026-01-10 00:00:00
+2026-01-12 17:09:39,662 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260105_20260106.csv
+2026-01-12 17:09:39,666 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-11 00:00:00
+2026-01-12 17:09:39,768 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260107_20260108.csv
+2026-01-12 17:09:39,774 - fetchers.gdelt_direct - INFO - Processing from 2026-01-11 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 17:09:41,332 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260108_20260109.csv
+2026-01-12 17:09:42,652 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260111_20260112.csv
+2026-01-12 17:09:43,274 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260110_20260111.csv
+2026-01-12 17:09:43,822 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20260109_20260110.csv
+2026-01-12 17:09:43,835 - utils.helpers - INFO - Successfully fetched 3668 GDELT records
+2026-01-12 17:09:43,835 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 17:09:43,835 - fetchers.stock - INFO - Fetching data for DJT Stock (DJT)
+2026-01-12 17:09:47,266 - fetchers.stock - INFO - Stock data saved to data/processed/djt_stock.csv
+2026-01-12 17:09:47,266 - utils.helpers - INFO - Successfully fetched stock data with 9 records
+2026-01-12 17:09:47,267 - utils.helpers - INFO - Starting data processing
+2026-01-12 17:09:47,274 - processors.data_processor - INFO - Processed 3668 GDELT records into 11 daily aggregates
+2026-01-12 17:09:47,275 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 17:09:47,276 - processors.data_processor - INFO - Processed stock data with 9 records
+2026-01-12 17:09:47,278 - processors.data_processor - INFO - Merged datasets resulting in 6 records
+2026-01-12 17:09:47,279 - processors.data_processor - INFO - Calculated differences for 5 records
+2026-01-12 17:09:47,279 - utils.helpers - INFO - Final processed dataset contains 5 records
+2026-01-12 17:09:47,279 - utils.helpers - INFO - Starting analysis
+2026-01-12 17:09:47,281 - analyzers.data_analyzer - INFO - Correlation: -0.749
+2026-01-12 17:09:47,282 - analyzers.data_analyzer - INFO - Differences correlation: -0.802
+2026-01-12 17:09:47,284 - analyzers.data_analyzer - INFO - Level regression - R²: 0.561, p-value: 0.1449
+2026-01-12 17:09:47,285 - analyzers.data_analyzer - INFO - Differences regression - R²: 0.643, p-value: 0.1026
+2026-01-12 17:09:47,596 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:09:47,596 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:09:47,601 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:09:47,601 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:09:51,484 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:09:51,485 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:09:51,490 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:09:51,491 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:12:52,154 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 17:12:52,154 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 17:12:52,155 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 17:12:52,156 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-30 00:00:00
+2026-01-12 17:12:52,156 - fetchers.gdelt_direct - INFO - Processing from 2025-12-30 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 17:12:52,157 - fetchers.gdelt_direct - INFO - Processing from 2025-12-31 00:00:00 to 2026-01-01 00:00:00
+2026-01-12 17:12:52,158 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-02 00:00:00
+2026-01-12 17:12:59,570 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260101_20260102.csv
+2026-01-12 17:12:59,573 - fetchers.gdelt_direct - INFO - Processing from 2026-01-02 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 17:12:59,581 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251231_20260101.csv
+2026-01-12 17:12:59,583 - fetchers.gdelt_direct - INFO - Processing from 2026-01-03 00:00:00 to 2026-01-04 00:00:00
+2026-01-12 17:12:59,586 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251229_20251230.csv
+2026-01-12 17:12:59,587 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-05 00:00:00
+2026-01-12 17:12:59,609 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251230_20251231.csv
+2026-01-12 17:12:59,610 - fetchers.gdelt_direct - INFO - Processing from 2026-01-05 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 17:13:08,337 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260103_20260104.csv
+2026-01-12 17:13:08,346 - fetchers.gdelt_direct - INFO - Processing from 2026-01-06 00:00:00 to 2026-01-07 00:00:00
+2026-01-12 17:13:11,837 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260105_20260106.csv
+2026-01-12 17:13:11,845 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-08 00:00:00
+2026-01-12 17:13:11,851 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260102_20260103.csv
+2026-01-12 17:13:11,854 - fetchers.gdelt_direct - INFO - Processing from 2026-01-08 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 17:13:11,854 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260104_20260105.csv
+2026-01-12 17:13:11,861 - fetchers.gdelt_direct - INFO - Processing from 2026-01-09 00:00:00 to 2026-01-10 00:00:00
+2026-01-12 17:13:13,939 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260106_20260107.csv
+2026-01-12 17:13:13,950 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-11 00:00:00
+2026-01-12 17:13:18,454 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260108_20260109.csv
+2026-01-12 17:13:18,459 - fetchers.gdelt_direct - INFO - Processing from 2026-01-11 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 17:13:18,460 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260107_20260108.csv
+2026-01-12 17:13:18,475 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260110_20260111.csv
+2026-01-12 17:13:19,360 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260109_20260110.csv
+2026-01-12 17:13:20,498 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260111_20260112.csv
+2026-01-12 17:13:20,506 - utils.helpers - INFO - Successfully fetched 3673 GDELT records
+2026-01-12 17:13:20,506 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 17:13:20,506 - fetchers.stock - INFO - Fetching data for DJT Stock (DJT)
+2026-01-12 17:13:21,127 - fetchers.stock - INFO - Stock data saved to data/stock/djt_stock.csv
+2026-01-12 17:13:21,127 - utils.helpers - INFO - Successfully fetched stock data with 9 records
+2026-01-12 17:13:21,127 - utils.helpers - INFO - Starting data processing
+2026-01-12 17:13:21,136 - processors.data_processor - INFO - Processed 3673 GDELT records into 8 daily aggregates
+2026-01-12 17:13:21,137 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 17:13:21,138 - processors.data_processor - INFO - Processed stock data with 9 records
+2026-01-12 17:13:21,140 - processors.data_processor - INFO - Merged datasets resulting in 5 records
+2026-01-12 17:13:21,141 - processors.data_processor - INFO - Calculated differences for 4 records
+2026-01-12 17:13:21,141 - utils.helpers - INFO - Final processed dataset contains 4 records
+2026-01-12 17:13:21,141 - utils.helpers - INFO - Starting analysis
+2026-01-12 17:13:21,143 - analyzers.data_analyzer - INFO - Correlation: -0.732
+2026-01-12 17:13:21,143 - analyzers.data_analyzer - INFO - Differences correlation: -0.853
+2026-01-12 17:13:21,146 - analyzers.data_analyzer - INFO - Level regression - R²: 0.535, p-value: 0.2685
+2026-01-12 17:13:21,146 - analyzers.data_analyzer - INFO - Differences regression - R²: 0.728, p-value: 0.1467
+2026-01-12 17:13:21,147 - utils.helpers - INFO - Analysis results saved to data/results/analysis_results.json
+2026-01-12 17:13:21,147 - utils.helpers - INFO - Merged data saved to data/results/merged_data.csv
+2026-01-12 17:13:21,147 - utils.helpers - INFO - Analysis complete!
+2026-01-12 17:14:25,930 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260104_20260105.csv
+2026-01-12 17:14:25,931 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260103_20260104.csv
+2026-01-12 17:14:25,931 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260102_20260103.csv
+2026-01-12 17:14:25,932 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251231_20260101.csv
+2026-01-12 17:14:25,933 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251229_20251230.csv
+2026-01-12 17:14:25,933 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260111_20260112.csv
+2026-01-12 17:14:25,933 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260110_20260111.csv
+2026-01-12 17:14:25,934 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260107_20260108.csv
+2026-01-12 17:14:25,934 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260105_20260106.csv
+2026-01-12 17:14:25,934 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251230_20251231.csv
+2026-01-12 17:14:25,934 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260109_20260110.csv
+2026-01-12 17:14:25,934 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260108_20260109.csv
+2026-01-12 17:14:25,935 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260101_20260102.csv
+2026-01-12 17:14:25,935 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260106_20260107.csv
+2026-01-12 17:14:25,935 - utils.helpers - INFO - Removed file: data/stock/djt_stock.csv
+2026-01-12 17:14:25,935 - utils.helpers - INFO - Removed file: data/results/debug/merged.csv
+2026-01-12 17:14:25,935 - utils.helpers - INFO - Removed file: data/results/debug/gdelt_processed.csv
+2026-01-12 17:14:25,936 - utils.helpers - INFO - Removed file: data/results/debug/stock_processed.csv
+2026-01-12 17:14:25,936 - utils.helpers - INFO - Removed file: data/results/merged_data.csv
+2026-01-12 17:14:25,936 - utils.helpers - INFO - Removed file: data/results/analysis_results.json
+2026-01-12 17:14:25,936 - utils.helpers - INFO - Removed directory: data/results/debug
+2026-01-12 17:14:25,936 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 17:14:25,936 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 17:14:25,939 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 17:14:25,940 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-30 00:00:00
+2026-01-12 17:14:25,940 - fetchers.gdelt_direct - INFO - Processing from 2025-12-30 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 17:14:25,944 - fetchers.gdelt_direct - INFO - Processing from 2025-12-31 00:00:00 to 2026-01-01 00:00:00
+2026-01-12 17:14:25,944 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-02 00:00:00
+2026-01-12 17:14:32,879 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251230_20251231.csv
+2026-01-12 17:14:32,882 - fetchers.gdelt_direct - INFO - Processing from 2026-01-02 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 17:14:32,894 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251231_20260101.csv
+2026-01-12 17:14:32,895 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251229_20251230.csv
+2026-01-12 17:14:32,896 - fetchers.gdelt_direct - INFO - Processing from 2026-01-03 00:00:00 to 2026-01-04 00:00:00
+2026-01-12 17:14:32,898 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-05 00:00:00
+2026-01-12 17:14:32,915 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260101_20260102.csv
+2026-01-12 17:14:32,916 - fetchers.gdelt_direct - INFO - Processing from 2026-01-05 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 17:14:42,971 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260105_20260106.csv
+2026-01-12 17:14:42,975 - fetchers.gdelt_direct - INFO - Processing from 2026-01-06 00:00:00 to 2026-01-07 00:00:00
+2026-01-12 17:14:43,693 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260102_20260103.csv
+2026-01-12 17:14:43,704 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-08 00:00:00
+2026-01-12 17:14:43,740 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260103_20260104.csv
+2026-01-12 17:14:43,757 - fetchers.gdelt_direct - INFO - Processing from 2026-01-08 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 17:14:43,829 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260104_20260105.csv
+2026-01-12 17:14:43,841 - fetchers.gdelt_direct - INFO - Processing from 2026-01-09 00:00:00 to 2026-01-10 00:00:00
+2026-01-12 17:14:49,029 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260106_20260107.csv
+2026-01-12 17:14:49,033 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-11 00:00:00
+2026-01-12 17:14:50,132 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260108_20260109.csv
+2026-01-12 17:14:50,135 - fetchers.gdelt_direct - INFO - Processing from 2026-01-11 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 17:14:51,779 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260109_20260110.csv
+2026-01-12 17:14:52,928 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260111_20260112.csv
+2026-01-12 17:14:52,939 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260110_20260111.csv
+2026-01-12 17:14:52,954 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260107_20260108.csv
+2026-01-12 17:14:52,965 - utils.helpers - INFO - Successfully fetched 3823 GDELT records
+2026-01-12 17:14:52,966 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 17:14:52,966 - fetchers.stock - INFO - Fetching data for DJT Stock (DJT)
+2026-01-12 17:14:53,361 - fetchers.stock - INFO - Stock data saved to data/stock/djt_stock.csv
+2026-01-12 17:14:53,361 - utils.helpers - INFO - Successfully fetched stock data with 9 records
+2026-01-12 17:14:53,361 - utils.helpers - INFO - Starting data processing
+2026-01-12 17:14:53,367 - processors.data_processor - INFO - Processed 3823 GDELT records into 9 daily aggregates
+2026-01-12 17:14:53,368 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 17:14:53,368 - processors.data_processor - INFO - Processed stock data with 9 records
+2026-01-12 17:14:53,370 - processors.data_processor - INFO - Merged datasets resulting in 6 records
+2026-01-12 17:14:53,372 - processors.data_processor - INFO - Calculated differences for 5 records
+2026-01-12 17:14:53,372 - utils.helpers - INFO - Final processed dataset contains 5 records
+2026-01-12 17:14:53,372 - utils.helpers - INFO - Starting analysis
+2026-01-12 17:14:53,373 - analyzers.data_analyzer - INFO - Correlation: -0.749
+2026-01-12 17:14:53,374 - analyzers.data_analyzer - INFO - Differences correlation: -0.802
+2026-01-12 17:14:53,376 - analyzers.data_analyzer - INFO - Level regression - R²: 0.561, p-value: 0.1449
+2026-01-12 17:14:53,377 - analyzers.data_analyzer - INFO - Differences regression - R²: 0.643, p-value: 0.1026
+2026-01-12 17:14:53,763 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:14:53,763 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:14:53,767 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:14:53,767 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:14:53,918 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:14:53,918 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:14:53,921 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:14:53,921 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:14:54,345 - utils.helpers - INFO - Analysis results saved to data/results/analysis_results.json
+2026-01-12 17:14:54,345 - utils.helpers - INFO - Merged data saved to data/results/merged_data.csv
+2026-01-12 17:14:54,345 - utils.helpers - INFO - Analysis complete!
+2026-01-12 17:17:15,403 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260104_20260105.csv
+2026-01-12 17:17:15,404 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260103_20260104.csv
+2026-01-12 17:17:15,404 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260102_20260103.csv
+2026-01-12 17:17:15,404 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251231_20260101.csv
+2026-01-12 17:17:15,404 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251229_20251230.csv
+2026-01-12 17:17:15,404 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260111_20260112.csv
+2026-01-12 17:17:15,405 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260110_20260111.csv
+2026-01-12 17:17:15,405 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260107_20260108.csv
+2026-01-12 17:17:15,406 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260105_20260106.csv
+2026-01-12 17:17:15,406 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251230_20251231.csv
+2026-01-12 17:17:15,406 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260109_20260110.csv
+2026-01-12 17:17:15,407 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260108_20260109.csv
+2026-01-12 17:17:15,407 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260101_20260102.csv
+2026-01-12 17:17:15,407 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260106_20260107.csv
+2026-01-12 17:17:15,407 - utils.helpers - INFO - Removed file: data/stock/djt_stock.csv
+2026-01-12 17:17:15,407 - utils.helpers - INFO - Removed file: data/results/debug/merged.csv
+2026-01-12 17:17:15,407 - utils.helpers - INFO - Removed file: data/results/debug/gdelt_processed.csv
+2026-01-12 17:17:15,407 - utils.helpers - INFO - Removed file: data/results/debug/stock_processed.csv
+2026-01-12 17:17:15,407 - utils.helpers - INFO - Removed file: data/results/merged_data.csv
+2026-01-12 17:17:15,407 - utils.helpers - INFO - Removed file: data/results/time_series.png
+2026-01-12 17:17:15,408 - utils.helpers - INFO - Removed file: data/results/analysis_results.json
+2026-01-12 17:17:15,408 - utils.helpers - INFO - Removed file: data/results/correlation_heatmap.png
+2026-01-12 17:17:15,408 - utils.helpers - INFO - Removed file: data/results/stock_vs_tone.png
+2026-01-12 17:17:15,408 - utils.helpers - INFO - Removed file: data/results/differences.png
+2026-01-12 17:17:15,408 - utils.helpers - INFO - Removed file: data/results/scatter.png
+2026-01-12 17:17:15,408 - utils.helpers - INFO - Removed directory: data/results/debug
+2026-01-12 17:17:15,408 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 17:17:15,408 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 17:17:15,410 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 17:17:15,410 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-30 00:00:00
+2026-01-12 17:17:15,410 - fetchers.gdelt_direct - INFO - Processing from 2025-12-30 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 17:17:15,411 - fetchers.gdelt_direct - INFO - Processing from 2025-12-31 00:00:00 to 2026-01-01 00:00:00
+2026-01-12 17:17:15,412 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-02 00:00:00
+2026-01-12 17:17:23,121 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251231_20260101.csv
+2026-01-12 17:17:23,142 - fetchers.gdelt_direct - INFO - Processing from 2026-01-02 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 17:17:23,224 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251230_20251231.csv
+2026-01-12 17:17:23,227 - fetchers.gdelt_direct - INFO - Processing from 2026-01-03 00:00:00 to 2026-01-04 00:00:00
+2026-01-12 17:17:23,306 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260101_20260102.csv
+2026-01-12 17:17:23,310 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-05 00:00:00
+2026-01-12 17:17:23,312 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251229_20251230.csv
+2026-01-12 17:17:23,316 - fetchers.gdelt_direct - INFO - Processing from 2026-01-05 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 17:17:31,217 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260103_20260104.csv
+2026-01-12 17:17:31,219 - fetchers.gdelt_direct - INFO - Processing from 2026-01-06 00:00:00 to 2026-01-07 00:00:00
+2026-01-12 17:17:31,225 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260102_20260103.csv
+2026-01-12 17:17:31,227 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-08 00:00:00
+2026-01-12 17:17:34,412 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260105_20260106.csv
+2026-01-12 17:17:34,416 - fetchers.gdelt_direct - INFO - Processing from 2026-01-08 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 17:17:34,420 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260104_20260105.csv
+2026-01-12 17:17:34,422 - fetchers.gdelt_direct - INFO - Processing from 2026-01-09 00:00:00 to 2026-01-10 00:00:00
+2026-01-12 17:17:38,971 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260106_20260107.csv
+2026-01-12 17:17:38,987 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-11 00:00:00
+2026-01-12 17:17:39,043 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260107_20260108.csv
+2026-01-12 17:17:39,051 - fetchers.gdelt_direct - INFO - Processing from 2026-01-11 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 17:17:42,073 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260109_20260110.csv
+2026-01-12 17:17:42,077 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260108_20260109.csv
+2026-01-12 17:17:42,799 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260111_20260112.csv
+2026-01-12 17:17:43,159 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260110_20260111.csv
+2026-01-12 17:17:43,170 - utils.helpers - INFO - Successfully fetched 3548 GDELT records
+2026-01-12 17:17:43,170 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 17:17:43,170 - fetchers.stock - INFO - Fetching data for DJT Stock (DJT)
+2026-01-12 17:17:43,511 - fetchers.stock - INFO - Stock data saved to data/stock/djt_stock.csv
+2026-01-12 17:17:43,511 - utils.helpers - INFO - Successfully fetched stock data with 9 records
+2026-01-12 17:17:43,511 - utils.helpers - INFO - Starting data processing
+2026-01-12 17:17:43,519 - processors.data_processor - INFO - Processed 3548 GDELT records into 11 daily aggregates
+2026-01-12 17:17:43,520 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 17:17:43,521 - processors.data_processor - INFO - Processed stock data with 9 records
+2026-01-12 17:17:43,524 - processors.data_processor - INFO - Merged datasets resulting in 6 records
+2026-01-12 17:17:43,525 - processors.data_processor - INFO - Calculated differences for 5 records
+2026-01-12 17:17:43,525 - utils.helpers - INFO - Final processed dataset contains 5 records
+2026-01-12 17:17:43,525 - utils.helpers - INFO - Starting analysis
+2026-01-12 17:17:43,527 - analyzers.data_analyzer - INFO - Correlation: -0.749
+2026-01-12 17:17:43,527 - analyzers.data_analyzer - INFO - Differences correlation: -0.802
+2026-01-12 17:17:43,530 - analyzers.data_analyzer - INFO - Level regression - R²: 0.561, p-value: 0.1449
+2026-01-12 17:17:43,530 - analyzers.data_analyzer - INFO - Differences regression - R²: 0.643, p-value: 0.1026
+2026-01-12 17:17:43,530 - utils.helpers - INFO - Analysis results saved to data/results/analysis_results.json
+2026-01-12 17:17:43,531 - utils.helpers - INFO - Merged data saved to data/results/merged_data.csv
+2026-01-12 17:17:43,531 - utils.helpers - INFO - Analysis complete!
+2026-01-12 17:20:31,997 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260104_20260105.csv
+2026-01-12 17:20:31,998 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260103_20260104.csv
+2026-01-12 17:20:31,999 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260102_20260103.csv
+2026-01-12 17:20:31,999 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251231_20260101.csv
+2026-01-12 17:20:31,999 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251229_20251230.csv
+2026-01-12 17:20:31,999 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260111_20260112.csv
+2026-01-12 17:20:31,999 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260110_20260111.csv
+2026-01-12 17:20:32,000 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260107_20260108.csv
+2026-01-12 17:20:32,000 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260105_20260106.csv
+2026-01-12 17:20:32,000 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251230_20251231.csv
+2026-01-12 17:20:32,001 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260109_20260110.csv
+2026-01-12 17:20:32,001 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260108_20260109.csv
+2026-01-12 17:20:32,001 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260101_20260102.csv
+2026-01-12 17:20:32,001 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260106_20260107.csv
+2026-01-12 17:20:32,001 - utils.helpers - INFO - Removed file: data/stock/djt_stock.csv
+2026-01-12 17:20:32,001 - utils.helpers - INFO - Removed file: data/results/debug/merged.csv
+2026-01-12 17:20:32,001 - utils.helpers - INFO - Removed file: data/results/debug/gdelt_processed.csv
+2026-01-12 17:20:32,001 - utils.helpers - INFO - Removed file: data/results/debug/stock_processed.csv
+2026-01-12 17:20:32,001 - utils.helpers - INFO - Removed file: data/results/merged_data.csv
+2026-01-12 17:20:32,002 - utils.helpers - INFO - Removed file: data/results/analysis_results.json
+2026-01-12 17:20:32,002 - utils.helpers - INFO - Removed directory: data/results/debug
+2026-01-12 17:20:32,002 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 17:20:32,002 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 17:20:32,008 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 17:20:32,009 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-30 00:00:00
+2026-01-12 17:20:32,009 - fetchers.gdelt_direct - INFO - Processing from 2025-12-30 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 17:20:32,011 - fetchers.gdelt_direct - INFO - Processing from 2025-12-31 00:00:00 to 2026-01-01 00:00:00
+2026-01-12 17:20:32,012 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-02 00:00:00
+2026-01-12 17:20:38,940 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251231_20260101.csv
+2026-01-12 17:20:38,942 - fetchers.gdelt_direct - INFO - Processing from 2026-01-02 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 17:20:38,946 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251229_20251230.csv
+2026-01-12 17:20:38,948 - fetchers.gdelt_direct - INFO - Processing from 2026-01-03 00:00:00 to 2026-01-04 00:00:00
+2026-01-12 17:20:39,026 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251230_20251231.csv
+2026-01-12 17:20:39,029 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-05 00:00:00
+2026-01-12 17:20:39,037 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260101_20260102.csv
+2026-01-12 17:20:39,039 - fetchers.gdelt_direct - INFO - Processing from 2026-01-05 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 17:20:44,969 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260102_20260103.csv
+2026-01-12 17:20:44,973 - fetchers.gdelt_direct - INFO - Processing from 2026-01-06 00:00:00 to 2026-01-07 00:00:00
+2026-01-12 17:20:44,982 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260103_20260104.csv
+2026-01-12 17:20:44,984 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-08 00:00:00
+2026-01-12 17:20:47,459 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260105_20260106.csv
+2026-01-12 17:20:47,461 - fetchers.gdelt_direct - INFO - Processing from 2026-01-08 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 17:20:47,462 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260104_20260105.csv
+2026-01-12 17:20:47,464 - fetchers.gdelt_direct - INFO - Processing from 2026-01-09 00:00:00 to 2026-01-10 00:00:00
+2026-01-12 17:20:52,411 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260109_20260110.csv
+2026-01-12 17:20:52,415 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-11 00:00:00
+2026-01-12 17:20:52,441 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260106_20260107.csv
+2026-01-12 17:20:52,452 - fetchers.gdelt_direct - INFO - Processing from 2026-01-11 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 17:20:52,465 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260107_20260108.csv
+2026-01-12 17:20:53,479 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260108_20260109.csv
+2026-01-12 17:20:55,552 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260111_20260112.csv
+2026-01-12 17:20:55,553 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260110_20260111.csv
+2026-01-12 17:20:55,570 - utils.helpers - INFO - Successfully fetched 3548 GDELT records
+2026-01-12 17:20:55,570 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 17:20:55,570 - fetchers.stock - INFO - Fetching data for DJT Stock (DJT)
+2026-01-12 17:20:55,943 - fetchers.stock - INFO - Stock data saved to data/stock/djt_stock.csv
+2026-01-12 17:20:55,943 - utils.helpers - INFO - Successfully fetched stock data with 9 records
+2026-01-12 17:20:55,943 - utils.helpers - INFO - Starting data processing
+2026-01-12 17:20:55,951 - processors.data_processor - INFO - Processed 3548 GDELT records into 11 daily aggregates
+2026-01-12 17:20:55,952 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 17:20:55,953 - processors.data_processor - INFO - Processed stock data with 9 records
+2026-01-12 17:20:55,955 - processors.data_processor - INFO - Merged datasets resulting in 6 records
+2026-01-12 17:20:55,956 - processors.data_processor - INFO - Calculated differences for 5 records
+2026-01-12 17:20:55,956 - utils.helpers - INFO - Final processed dataset contains 5 records
+2026-01-12 17:20:55,956 - utils.helpers - INFO - Starting analysis
+2026-01-12 17:20:55,958 - analyzers.data_analyzer - INFO - Correlation: -0.749
+2026-01-12 17:20:55,958 - analyzers.data_analyzer - INFO - Differences correlation: -0.802
+2026-01-12 17:20:55,961 - analyzers.data_analyzer - INFO - Level regression - R²: 0.561, p-value: 0.1449
+2026-01-12 17:20:55,962 - analyzers.data_analyzer - INFO - Differences regression - R²: 0.643, p-value: 0.1026
+2026-01-12 17:20:55,962 - utils.helpers - INFO - Analysis results saved to data/results/analysis_results.json
+2026-01-12 17:20:55,962 - utils.helpers - INFO - Merged data saved to data/results/merged_data.csv
+2026-01-12 17:20:55,962 - utils.helpers - INFO - Analysis complete!
+2026-01-12 17:22:05,506 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260104_20260105.csv
+2026-01-12 17:22:05,507 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260103_20260104.csv
+2026-01-12 17:22:05,508 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260102_20260103.csv
+2026-01-12 17:22:05,508 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251231_20260101.csv
+2026-01-12 17:22:05,509 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251229_20251230.csv
+2026-01-12 17:22:05,509 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260111_20260112.csv
+2026-01-12 17:22:05,509 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260110_20260111.csv
+2026-01-12 17:22:05,510 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260107_20260108.csv
+2026-01-12 17:22:05,510 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260105_20260106.csv
+2026-01-12 17:22:05,510 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251230_20251231.csv
+2026-01-12 17:22:05,511 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260109_20260110.csv
+2026-01-12 17:22:05,511 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260108_20260109.csv
+2026-01-12 17:22:05,511 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260101_20260102.csv
+2026-01-12 17:22:05,512 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260106_20260107.csv
+2026-01-12 17:22:05,512 - utils.helpers - INFO - Removed file: data/stock/djt_stock.csv
+2026-01-12 17:22:05,512 - utils.helpers - INFO - Removed file: data/results/debug/merged.csv
+2026-01-12 17:22:05,512 - utils.helpers - INFO - Removed file: data/results/debug/gdelt_processed.csv
+2026-01-12 17:22:05,512 - utils.helpers - INFO - Removed file: data/results/debug/stock_processed.csv
+2026-01-12 17:22:05,513 - utils.helpers - INFO - Removed file: data/results/merged_data.csv
+2026-01-12 17:22:05,513 - utils.helpers - INFO - Removed file: data/results/analysis_results.json
+2026-01-12 17:22:05,513 - utils.helpers - INFO - Removed directory: data/results/debug
+2026-01-12 17:22:05,513 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 17:22:05,513 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 17:22:05,518 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 17:22:05,519 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-30 00:00:00
+2026-01-12 17:22:05,520 - fetchers.gdelt_direct - INFO - Processing from 2025-12-30 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 17:22:05,523 - fetchers.gdelt_direct - INFO - Processing from 2025-12-31 00:00:00 to 2026-01-01 00:00:00
+2026-01-12 17:22:05,524 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-02 00:00:00
+2026-01-12 17:22:38,202 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 17:22:38,203 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 17:22:38,206 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 17:22:38,208 - fetchers.gdelt_direct - INFO - Processing from 2025-10-14 00:00:00 to 2025-10-15 00:00:00
+2026-01-12 17:22:38,209 - fetchers.gdelt_direct - INFO - Processing from 2025-10-15 00:00:00 to 2025-10-16 00:00:00
+2026-01-12 17:22:38,212 - fetchers.gdelt_direct - INFO - Processing from 2025-10-16 00:00:00 to 2025-10-17 00:00:00
+2026-01-12 17:22:38,213 - fetchers.gdelt_direct - INFO - Processing from 2025-10-17 00:00:00 to 2025-10-18 00:00:00
+2026-01-12 17:22:43,977 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251015_20251016.csv
+2026-01-12 17:22:43,978 - fetchers.gdelt_direct - INFO - Processing from 2025-10-18 00:00:00 to 2025-10-19 00:00:00
+2026-01-12 17:22:46,115 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251016_20251017.csv
+2026-01-12 17:22:46,117 - fetchers.gdelt_direct - INFO - Processing from 2025-10-19 00:00:00 to 2025-10-20 00:00:00
+2026-01-12 17:22:46,117 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251014_20251015.csv
+2026-01-12 17:22:46,120 - fetchers.gdelt_direct - INFO - Processing from 2025-10-20 00:00:00 to 2025-10-21 00:00:00
+2026-01-12 17:22:46,753 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251017_20251018.csv
+2026-01-12 17:22:46,756 - fetchers.gdelt_direct - INFO - Processing from 2025-10-21 00:00:00 to 2025-10-22 00:00:00
+2026-01-12 17:22:47,664 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251018_20251019.csv
+2026-01-12 17:22:47,665 - fetchers.gdelt_direct - INFO - Processing from 2025-10-22 00:00:00 to 2025-10-23 00:00:00
+2026-01-12 17:22:53,205 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251022_20251023.csv
+2026-01-12 17:22:53,208 - fetchers.gdelt_direct - INFO - Processing from 2025-10-23 00:00:00 to 2025-10-24 00:00:00
+2026-01-12 17:22:56,317 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251020_20251021.csv
+2026-01-12 17:22:56,325 - fetchers.gdelt_direct - INFO - Processing from 2025-10-24 00:00:00 to 2025-10-25 00:00:00
+2026-01-12 17:22:56,368 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251019_20251020.csv
+2026-01-12 17:22:56,377 - fetchers.gdelt_direct - INFO - Processing from 2025-10-25 00:00:00 to 2025-10-26 00:00:00
+2026-01-12 17:22:56,444 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251021_20251022.csv
+2026-01-12 17:22:56,446 - fetchers.gdelt_direct - INFO - Processing from 2025-10-26 00:00:00 to 2025-10-27 00:00:00
+2026-01-12 17:22:58,531 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251023_20251024.csv
+2026-01-12 17:22:58,533 - fetchers.gdelt_direct - INFO - Processing from 2025-10-27 00:00:00 to 2025-10-28 00:00:00
+2026-01-12 17:23:02,715 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251024_20251025.csv
+2026-01-12 17:23:02,717 - fetchers.gdelt_direct - INFO - Processing from 2025-10-28 00:00:00 to 2025-10-29 00:00:00
+2026-01-12 17:23:05,752 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251026_20251027.csv
+2026-01-12 17:23:05,766 - fetchers.gdelt_direct - INFO - Processing from 2025-10-29 00:00:00 to 2025-10-30 00:00:00
+2026-01-12 17:23:05,793 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251025_20251026.csv
+2026-01-12 17:23:05,806 - fetchers.gdelt_direct - INFO - Processing from 2025-10-30 00:00:00 to 2025-10-31 00:00:00
+2026-01-12 17:23:06,041 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251027_20251028.csv
+2026-01-12 17:23:06,049 - fetchers.gdelt_direct - INFO - Processing from 2025-10-31 00:00:00 to 2025-11-01 00:00:00
+2026-01-12 17:23:07,861 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251028_20251029.csv
+2026-01-12 17:23:07,864 - fetchers.gdelt_direct - INFO - Processing from 2025-11-01 00:00:00 to 2025-11-02 00:00:00
+2026-01-12 17:23:11,428 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251101_20251102.csv
+2026-01-12 17:23:11,429 - fetchers.gdelt_direct - INFO - Processing from 2025-11-02 00:00:00 to 2025-11-03 00:00:00
+2026-01-12 17:23:13,143 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251029_20251030.csv
+2026-01-12 17:23:13,147 - fetchers.gdelt_direct - INFO - Processing from 2025-11-03 00:00:00 to 2025-11-04 00:00:00
+2026-01-12 17:23:14,081 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251031_20251101.csv
+2026-01-12 17:23:14,084 - fetchers.gdelt_direct - INFO - Processing from 2025-11-04 00:00:00 to 2025-11-05 00:00:00
+2026-01-12 17:23:14,992 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251030_20251031.csv
+2026-01-12 17:23:14,994 - fetchers.gdelt_direct - INFO - Processing from 2025-11-05 00:00:00 to 2025-11-06 00:00:00
+2026-01-12 17:23:16,411 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251102_20251103.csv
+2026-01-12 17:23:16,414 - fetchers.gdelt_direct - INFO - Processing from 2025-11-06 00:00:00 to 2025-11-07 00:00:00
+2026-01-12 17:23:17,958 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251103_20251104.csv
+2026-01-12 17:23:17,960 - fetchers.gdelt_direct - INFO - Processing from 2025-11-07 00:00:00 to 2025-11-08 00:00:00
+2026-01-12 17:23:20,277 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251104_20251105.csv
+2026-01-12 17:23:20,281 - fetchers.gdelt_direct - INFO - Processing from 2025-11-08 00:00:00 to 2025-11-09 00:00:00
+2026-01-12 17:23:21,249 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251105_20251106.csv
+2026-01-12 17:23:21,252 - fetchers.gdelt_direct - INFO - Processing from 2025-11-09 00:00:00 to 2025-11-10 00:00:00
+2026-01-12 17:23:23,210 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251106_20251107.csv
+2026-01-12 17:23:23,214 - fetchers.gdelt_direct - INFO - Processing from 2025-11-10 00:00:00 to 2025-11-11 00:00:00
+2026-01-12 17:23:23,897 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251107_20251108.csv
+2026-01-12 17:23:23,899 - fetchers.gdelt_direct - INFO - Processing from 2025-11-11 00:00:00 to 2025-11-12 00:00:00
+2026-01-12 17:23:25,030 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251108_20251109.csv
+2026-01-12 17:23:25,032 - fetchers.gdelt_direct - INFO - Processing from 2025-11-12 00:00:00 to 2025-11-13 00:00:00
+2026-01-12 17:23:26,831 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251109_20251110.csv
+2026-01-12 17:23:26,835 - fetchers.gdelt_direct - INFO - Processing from 2025-11-13 00:00:00 to 2025-11-14 00:00:00
+2026-01-12 17:23:33,060 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251113_20251114.csv
+2026-01-12 17:23:33,063 - fetchers.gdelt_direct - INFO - Processing from 2025-11-14 00:00:00 to 2025-11-15 00:00:00
+2026-01-12 17:23:35,061 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251111_20251112.csv
+2026-01-12 17:23:35,079 - fetchers.gdelt_direct - INFO - Processing from 2025-11-15 00:00:00 to 2025-11-16 00:00:00
+2026-01-12 17:23:35,175 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251110_20251111.csv
+2026-01-12 17:23:35,179 - fetchers.gdelt_direct - INFO - Processing from 2025-11-16 00:00:00 to 2025-11-17 00:00:00
+2026-01-12 17:23:36,452 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251112_20251113.csv
+2026-01-12 17:23:36,458 - fetchers.gdelt_direct - INFO - Processing from 2025-11-17 00:00:00 to 2025-11-18 00:00:00
+2026-01-12 17:23:37,682 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251114_20251115.csv
+2026-01-12 17:23:37,684 - fetchers.gdelt_direct - INFO - Processing from 2025-11-18 00:00:00 to 2025-11-19 00:00:00
+2026-01-12 17:23:41,054 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251115_20251116.csv
+2026-01-12 17:23:41,056 - fetchers.gdelt_direct - INFO - Processing from 2025-11-19 00:00:00 to 2025-11-20 00:00:00
+2026-01-12 17:23:43,588 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251117_20251118.csv
+2026-01-12 17:23:43,593 - fetchers.gdelt_direct - INFO - Processing from 2025-11-20 00:00:00 to 2025-11-21 00:00:00
+2026-01-12 17:23:44,741 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251116_20251117.csv
+2026-01-12 17:23:44,750 - fetchers.gdelt_direct - INFO - Processing from 2025-11-21 00:00:00 to 2025-11-22 00:00:00
+2026-01-12 17:23:45,099 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251118_20251119.csv
+2026-01-12 17:23:45,103 - fetchers.gdelt_direct - INFO - Processing from 2025-11-22 00:00:00 to 2025-11-23 00:00:00
+2026-01-12 17:23:47,094 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251119_20251120.csv
+2026-01-12 17:23:47,097 - fetchers.gdelt_direct - INFO - Processing from 2025-11-23 00:00:00 to 2025-11-24 00:00:00
+2026-01-12 17:23:48,960 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251120_20251121.csv
+2026-01-12 17:23:48,964 - fetchers.gdelt_direct - INFO - Processing from 2025-11-24 00:00:00 to 2025-11-25 00:00:00
+2026-01-12 17:23:49,659 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251121_20251122.csv
+2026-01-12 17:23:49,661 - fetchers.gdelt_direct - INFO - Processing from 2025-11-25 00:00:00 to 2025-11-26 00:00:00
+2026-01-12 17:23:50,047 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251122_20251123.csv
+2026-01-12 17:23:50,048 - fetchers.gdelt_direct - INFO - Processing from 2025-11-26 00:00:00 to 2025-11-27 00:00:00
+2026-01-12 17:23:51,704 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251123_20251124.csv
+2026-01-12 17:23:51,706 - fetchers.gdelt_direct - INFO - Processing from 2025-11-27 00:00:00 to 2025-11-28 00:00:00
+2026-01-12 17:23:53,431 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251124_20251125.csv
+2026-01-12 17:23:53,433 - fetchers.gdelt_direct - INFO - Processing from 2025-11-28 00:00:00 to 2025-11-29 00:00:00
+2026-01-12 17:23:56,100 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251126_20251127.csv
+2026-01-12 17:23:56,116 - fetchers.gdelt_direct - INFO - Processing from 2025-11-29 00:00:00 to 2025-11-30 00:00:00
+2026-01-12 17:23:56,601 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251125_20251126.csv
+2026-01-12 17:23:56,605 - fetchers.gdelt_direct - INFO - Processing from 2025-11-30 00:00:00 to 2025-12-01 00:00:00
+2026-01-12 17:23:58,439 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251128_20251129.csv
+2026-01-12 17:23:58,441 - fetchers.gdelt_direct - INFO - Processing from 2025-12-01 00:00:00 to 2025-12-02 00:00:00
+2026-01-12 17:23:58,872 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251127_20251128.csv
+2026-01-12 17:23:58,873 - fetchers.gdelt_direct - INFO - Processing from 2025-12-02 00:00:00 to 2025-12-03 00:00:00
+2026-01-12 17:24:02,355 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251129_20251130.csv
+2026-01-12 17:24:02,357 - fetchers.gdelt_direct - INFO - Processing from 2025-12-03 00:00:00 to 2025-12-04 00:00:00
+2026-01-12 17:24:02,911 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251130_20251201.csv
+2026-01-12 17:24:02,915 - fetchers.gdelt_direct - INFO - Processing from 2025-12-04 00:00:00 to 2025-12-05 00:00:00
+2026-01-12 17:24:05,164 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251201_20251202.csv
+2026-01-12 17:24:05,168 - fetchers.gdelt_direct - INFO - Processing from 2025-12-05 00:00:00 to 2025-12-06 00:00:00
+2026-01-12 17:24:05,972 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251202_20251203.csv
+2026-01-12 17:24:05,974 - fetchers.gdelt_direct - INFO - Processing from 2025-12-06 00:00:00 to 2025-12-07 00:00:00
+2026-01-12 17:24:08,051 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251203_20251204.csv
+2026-01-12 17:24:08,055 - fetchers.gdelt_direct - INFO - Processing from 2025-12-07 00:00:00 to 2025-12-08 00:00:00
+2026-01-12 17:24:09,997 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251205_20251206.csv
+2026-01-12 17:24:10,013 - fetchers.gdelt_direct - INFO - Processing from 2025-12-08 00:00:00 to 2025-12-09 00:00:00
+2026-01-12 17:24:10,578 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251204_20251205.csv
+2026-01-12 17:24:10,589 - fetchers.gdelt_direct - INFO - Processing from 2025-12-09 00:00:00 to 2025-12-10 00:00:00
+2026-01-12 17:24:11,553 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251206_20251207.csv
+2026-01-12 17:24:11,555 - fetchers.gdelt_direct - INFO - Processing from 2025-12-10 00:00:00 to 2025-12-11 00:00:00
+2026-01-12 17:24:12,898 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251207_20251208.csv
+2026-01-12 17:24:12,899 - fetchers.gdelt_direct - INFO - Processing from 2025-12-11 00:00:00 to 2025-12-12 00:00:00
+2026-01-12 17:24:18,541 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251208_20251209.csv
+2026-01-12 17:24:18,544 - fetchers.gdelt_direct - INFO - Processing from 2025-12-12 00:00:00 to 2025-12-13 00:00:00
+2026-01-12 17:24:19,465 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251210_20251211.csv
+2026-01-12 17:24:19,471 - fetchers.gdelt_direct - INFO - Processing from 2025-12-13 00:00:00 to 2025-12-14 00:00:00
+2026-01-12 17:24:20,513 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251211_20251212.csv
+2026-01-12 17:24:20,522 - fetchers.gdelt_direct - INFO - Processing from 2025-12-14 00:00:00 to 2025-12-15 00:00:00
+2026-01-12 17:24:20,865 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251209_20251210.csv
+2026-01-12 17:24:20,871 - fetchers.gdelt_direct - INFO - Processing from 2025-12-15 00:00:00 to 2025-12-16 00:00:00
+2026-01-12 17:24:22,404 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251212_20251213.csv
+2026-01-12 17:24:22,406 - fetchers.gdelt_direct - INFO - Processing from 2025-12-16 00:00:00 to 2025-12-17 00:00:00
+2026-01-12 17:24:23,151 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251213_20251214.csv
+2026-01-12 17:24:23,152 - fetchers.gdelt_direct - INFO - Processing from 2025-12-17 00:00:00 to 2025-12-18 00:00:00
+2026-01-12 17:24:25,504 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251214_20251215.csv
+2026-01-12 17:24:25,507 - fetchers.gdelt_direct - INFO - Processing from 2025-12-18 00:00:00 to 2025-12-19 00:00:00
+2026-01-12 17:24:27,929 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251215_20251216.csv
+2026-01-12 17:24:27,936 - fetchers.gdelt_direct - INFO - Processing from 2025-12-19 00:00:00 to 2025-12-20 00:00:00
+2026-01-12 17:24:28,883 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251216_20251217.csv
+2026-01-12 17:24:28,886 - fetchers.gdelt_direct - INFO - Processing from 2025-12-20 00:00:00 to 2025-12-21 00:00:00
+2026-01-12 17:24:31,344 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251218_20251219.csv
+2026-01-12 17:24:31,358 - fetchers.gdelt_direct - INFO - Processing from 2025-12-21 00:00:00 to 2025-12-22 00:00:00
+2026-01-12 17:24:31,384 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251217_20251218.csv
+2026-01-12 17:24:31,386 - fetchers.gdelt_direct - INFO - Processing from 2025-12-22 00:00:00 to 2025-12-23 00:00:00
+2026-01-12 17:24:32,906 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251220_20251221.csv
+2026-01-12 17:24:32,919 - fetchers.gdelt_direct - INFO - Processing from 2025-12-23 00:00:00 to 2025-12-24 00:00:00
+2026-01-12 17:24:33,135 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251219_20251220.csv
+2026-01-12 17:24:33,144 - fetchers.gdelt_direct - INFO - Processing from 2025-12-24 00:00:00 to 2025-12-25 00:00:00
+2026-01-12 17:24:36,652 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251222_20251223.csv
+2026-01-12 17:24:36,654 - fetchers.gdelt_direct - INFO - Processing from 2025-12-25 00:00:00 to 2025-12-26 00:00:00
+2026-01-12 17:24:38,298 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251224_20251225.csv
+2026-01-12 17:24:38,301 - fetchers.gdelt_direct - INFO - Processing from 2025-12-26 00:00:00 to 2025-12-27 00:00:00
+2026-01-12 17:24:38,676 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251223_20251224.csv
+2026-01-12 17:24:38,678 - fetchers.gdelt_direct - INFO - Processing from 2025-12-27 00:00:00 to 2025-12-28 00:00:00
+2026-01-12 17:24:39,580 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251221_20251222.csv
+2026-01-12 17:24:39,585 - fetchers.gdelt_direct - INFO - Processing from 2025-12-28 00:00:00 to 2025-12-29 00:00:00
+2026-01-12 17:24:40,616 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251225_20251226.csv
+2026-01-12 17:24:40,618 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-30 00:00:00
+2026-01-12 17:24:42,478 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251226_20251227.csv
+2026-01-12 17:24:42,479 - fetchers.gdelt_direct - INFO - Processing from 2025-12-30 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 17:24:42,865 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251227_20251228.csv
+2026-01-12 17:24:42,866 - fetchers.gdelt_direct - INFO - Processing from 2025-12-31 00:00:00 to 2026-01-01 00:00:00
+2026-01-12 17:24:44,081 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251228_20251229.csv
+2026-01-12 17:24:44,082 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-02 00:00:00
+2026-01-12 17:24:45,340 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251229_20251230.csv
+2026-01-12 17:24:45,342 - fetchers.gdelt_direct - INFO - Processing from 2026-01-02 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 17:24:46,981 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251230_20251231.csv
+2026-01-12 17:24:46,985 - fetchers.gdelt_direct - INFO - Processing from 2026-01-03 00:00:00 to 2026-01-04 00:00:00
+2026-01-12 17:24:47,489 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251231_20260101.csv
+2026-01-12 17:24:47,491 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-05 00:00:00
+2026-01-12 17:24:48,857 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260101_20260102.csv
+2026-01-12 17:24:48,859 - fetchers.gdelt_direct - INFO - Processing from 2026-01-05 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 17:24:49,397 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260102_20260103.csv
+2026-01-12 17:24:49,398 - fetchers.gdelt_direct - INFO - Processing from 2026-01-06 00:00:00 to 2026-01-07 00:00:00
+2026-01-12 17:24:50,488 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260103_20260104.csv
+2026-01-12 17:24:50,492 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-08 00:00:00
+2026-01-12 17:24:51,834 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260104_20260105.csv
+2026-01-12 17:24:51,835 - fetchers.gdelt_direct - INFO - Processing from 2026-01-08 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 17:24:55,151 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260105_20260106.csv
+2026-01-12 17:24:55,159 - fetchers.gdelt_direct - INFO - Processing from 2026-01-09 00:00:00 to 2026-01-10 00:00:00
+2026-01-12 17:24:56,335 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260107_20260108.csv
+2026-01-12 17:24:56,340 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-11 00:00:00
+2026-01-12 17:24:57,603 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260106_20260107.csv
+2026-01-12 17:24:57,607 - fetchers.gdelt_direct - INFO - Processing from 2026-01-11 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 17:24:58,432 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260108_20260109.csv
+2026-01-12 17:24:59,317 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260110_20260111.csv
+2026-01-12 17:24:59,636 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260109_20260110.csv
+2026-01-12 17:25:00,596 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260111_20260112.csv
+2026-01-12 17:25:00,602 - utils.helpers - INFO - Successfully fetched 316 GDELT records
+2026-01-12 17:25:00,602 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 17:25:00,602 - fetchers.stock - INFO - Fetching data for AAPL Stock (AAPL)
+2026-01-12 17:25:00,979 - fetchers.stock - INFO - Stock data saved to data/stock/aapl_stock.csv
+2026-01-12 17:25:00,979 - utils.helpers - INFO - Successfully fetched stock data with 61 records
+2026-01-12 17:25:00,979 - utils.helpers - INFO - Starting data processing
+2026-01-12 17:25:00,985 - processors.data_processor - INFO - Processed 316 GDELT records into 59 daily aggregates
+2026-01-12 17:25:00,986 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 17:25:00,987 - processors.data_processor - INFO - Processed stock data with 61 records
+2026-01-12 17:25:00,989 - processors.data_processor - INFO - Merged datasets resulting in 46 records
+2026-01-12 17:25:00,990 - processors.data_processor - INFO - Calculated differences for 45 records
+2026-01-12 17:25:00,990 - utils.helpers - INFO - Final processed dataset contains 45 records
+2026-01-12 17:25:00,990 - utils.helpers - INFO - Starting analysis
+2026-01-12 17:25:00,993 - analyzers.data_analyzer - INFO - Correlation: 0.137
+2026-01-12 17:25:00,993 - analyzers.data_analyzer - INFO - Differences correlation: -0.096
+2026-01-12 17:25:00,997 - analyzers.data_analyzer - INFO - Level regression - R²: 0.019, p-value: 0.3705
+2026-01-12 17:25:00,997 - analyzers.data_analyzer - INFO - Differences regression - R²: 0.009, p-value: 0.5293
+2026-01-12 17:25:01,404 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:25:01,405 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:25:01,409 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:25:01,410 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:25:01,599 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:25:01,600 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:25:01,603 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:25:01,604 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:25:02,074 - utils.helpers - INFO - Analysis results saved to data/results/analysis_results.json
+2026-01-12 17:25:02,074 - utils.helpers - INFO - Merged data saved to data/results/merged_data.csv
+2026-01-12 17:25:02,074 - utils.helpers - INFO - Analysis complete!
+2026-01-12 17:28:31,853 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251024_20251025.csv
+2026-01-12 17:28:31,855 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260104_20260105.csv
+2026-01-12 17:28:31,855 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251022_20251023.csv
+2026-01-12 17:28:31,856 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251109_20251110.csv
+2026-01-12 17:28:31,856 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260103_20260104.csv
+2026-01-12 17:28:31,856 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251218_20251219.csv
+2026-01-12 17:28:31,856 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251118_20251119.csv
+2026-01-12 17:28:31,857 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251023_20251024.csv
+2026-01-12 17:28:31,857 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260102_20260103.csv
+2026-01-12 17:28:31,857 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251209_20251210.csv
+2026-01-12 17:28:31,858 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251219_20251220.csv
+2026-01-12 17:28:31,858 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251231_20260101.csv
+2026-01-12 17:28:31,858 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251119_20251120.csv
+2026-01-12 17:28:31,858 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251129_20251130.csv
+2026-01-12 17:28:31,858 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251229_20251230.csv
+2026-01-12 17:28:31,859 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260111_20260112.csv
+2026-01-12 17:28:31,859 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251030_20251031.csv
+2026-01-12 17:28:31,859 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260110_20260111.csv
+2026-01-12 17:28:31,859 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251027_20251028.csv
+2026-01-12 17:28:31,859 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260107_20260108.csv
+2026-01-12 17:28:31,860 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251016_20251017.csv
+2026-01-12 17:28:31,860 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251025_20251026.csv
+2026-01-12 17:28:31,860 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260105_20260106.csv
+2026-01-12 17:28:31,860 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251205_20251206.csv
+2026-01-12 17:28:31,860 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251105_20251106.csv
+2026-01-12 17:28:31,860 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251230_20251231.csv
+2026-01-12 17:28:31,861 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251207_20251208.csv
+2026-01-12 17:28:31,861 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251107_20251108.csv
+2026-01-12 17:28:31,861 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251225_20251226.csv
+2026-01-12 17:28:31,861 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251216_20251217.csv
+2026-01-12 17:28:31,861 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251125_20251126.csv
+2026-01-12 17:28:31,861 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251116_20251117.csv
+2026-01-12 17:28:31,862 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251210_20251211.csv
+2026-01-12 17:28:31,862 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251227_20251228.csv
+2026-01-12 17:28:31,862 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251127_20251128.csv
+2026-01-12 17:28:31,862 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251110_20251111.csv
+2026-01-12 17:28:31,862 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251123_20251124.csv
+2026-01-12 17:28:31,862 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251018_20251019.csv
+2026-01-12 17:28:31,862 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251211_20251212.csv
+2026-01-12 17:28:31,862 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251222_20251223.csv
+2026-01-12 17:28:31,862 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251111_20251112.csv
+2026-01-12 17:28:31,863 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251122_20251123.csv
+2026-01-12 17:28:31,863 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251223_20251224.csv
+2026-01-12 17:28:31,863 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251224_20251225.csv
+2026-01-12 17:28:31,863 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251124_20251125.csv
+2026-01-12 17:28:31,863 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251202_20251203.csv
+2026-01-12 17:28:31,863 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251103_20251104.csv
+2026-01-12 17:28:31,864 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260109_20260110.csv
+2026-01-12 17:28:31,864 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251203_20251204.csv
+2026-01-12 17:28:31,864 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251102_20251103.csv
+2026-01-12 17:28:31,864 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251029_20251030.csv
+2026-01-12 17:28:31,864 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251204_20251205.csv
+2026-01-12 17:28:31,864 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251019_20251020.csv
+2026-01-12 17:28:31,865 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251104_20251105.csv
+2026-01-12 17:28:31,865 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251206_20251207.csv
+2026-01-12 17:28:31,865 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251106_20251107.csv
+2026-01-12 17:28:31,865 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251215_20251216.csv
+2026-01-12 17:28:31,865 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251226_20251227.csv
+2026-01-12 17:28:31,865 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251115_20251116.csv
+2026-01-12 17:28:31,866 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251126_20251127.csv
+2026-01-12 17:28:31,866 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251217_20251218.csv
+2026-01-12 17:28:31,866 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251220_20251221.csv
+2026-01-12 17:28:31,866 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251120_20251121.csv
+2026-01-12 17:28:31,866 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251117_20251118.csv
+2026-01-12 17:28:31,866 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251221_20251222.csv
+2026-01-12 17:28:31,866 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251212_20251213.csv
+2026-01-12 17:28:31,866 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251028_20251029.csv
+2026-01-12 17:28:31,867 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251113_20251114.csv
+2026-01-12 17:28:31,867 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251213_20251214.csv
+2026-01-12 17:28:31,867 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260108_20260109.csv
+2026-01-12 17:28:31,867 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251121_20251122.csv
+2026-01-12 17:28:31,867 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251112_20251113.csv
+2026-01-12 17:28:31,867 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251214_20251215.csv
+2026-01-12 17:28:31,867 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251031_20251101.csv
+2026-01-12 17:28:31,867 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251114_20251115.csv
+2026-01-12 17:28:31,867 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251201_20251202.csv
+2026-01-12 17:28:31,867 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251101_20251102.csv
+2026-01-12 17:28:31,868 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251014_20251015.csv
+2026-01-12 17:28:31,868 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251228_20251229.csv
+2026-01-12 17:28:31,868 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251021_20251022.csv
+2026-01-12 17:28:31,868 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260101_20260102.csv
+2026-01-12 17:28:31,868 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251128_20251129.csv
+2026-01-12 17:28:31,868 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251208_20251209.csv
+2026-01-12 17:28:31,868 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251108_20251109.csv
+2026-01-12 17:28:31,868 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251017_20251018.csv
+2026-01-12 17:28:31,869 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251020_20251021.csv
+2026-01-12 17:28:31,869 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251130_20251201.csv
+2026-01-12 17:28:31,869 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251026_20251027.csv
+2026-01-12 17:28:31,869 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20251015_20251016.csv
+2026-01-12 17:28:31,869 - utils.helpers - INFO - Removed file: data/gdelt/gdelt_direct_20260106_20260107.csv
+2026-01-12 17:28:31,869 - utils.helpers - INFO - Removed file: data/stock/aapl_stock.csv
+2026-01-12 17:28:31,869 - utils.helpers - INFO - Removed file: data/results/debug/merged.csv
+2026-01-12 17:28:31,869 - utils.helpers - INFO - Removed file: data/results/debug/gdelt_processed.csv
+2026-01-12 17:28:31,869 - utils.helpers - INFO - Removed file: data/results/debug/stock_processed.csv
+2026-01-12 17:28:31,870 - utils.helpers - INFO - Removed file: data/results/merged_data.csv
+2026-01-12 17:28:31,870 - utils.helpers - INFO - Removed file: data/results/time_series.png
+2026-01-12 17:28:31,870 - utils.helpers - INFO - Removed file: data/results/analysis_results.json
+2026-01-12 17:28:31,870 - utils.helpers - INFO - Removed file: data/results/correlation_heatmap.png
+2026-01-12 17:28:31,870 - utils.helpers - INFO - Removed file: data/results/stock_vs_tone.png
+2026-01-12 17:28:31,870 - utils.helpers - INFO - Removed file: data/results/differences.png
+2026-01-12 17:28:31,870 - utils.helpers - INFO - Removed file: data/results/scatter.png
+2026-01-12 17:28:31,870 - utils.helpers - INFO - Removed directory: data/results/debug
+2026-01-12 17:28:31,871 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-12 17:28:31,871 - utils.helpers - INFO - Starting data fetching process
+2026-01-12 17:28:31,875 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-12 17:28:31,877 - fetchers.gdelt_direct - INFO - Processing from 2025-07-16 00:00:00 to 2025-07-17 00:00:00
+2026-01-12 17:28:31,877 - fetchers.gdelt_direct - INFO - Processing from 2025-07-17 00:00:00 to 2025-07-18 00:00:00
+2026-01-12 17:28:31,880 - fetchers.gdelt_direct - INFO - Processing from 2025-07-18 00:00:00 to 2025-07-19 00:00:00
+2026-01-12 17:28:31,881 - fetchers.gdelt_direct - INFO - Processing from 2025-07-19 00:00:00 to 2025-07-20 00:00:00
+2026-01-12 17:28:36,339 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250719_20250720.csv
+2026-01-12 17:28:36,341 - fetchers.gdelt_direct - INFO - Processing from 2025-07-20 00:00:00 to 2025-07-21 00:00:00
+2026-01-12 17:28:37,803 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250718_20250719.csv
+2026-01-12 17:28:37,804 - fetchers.gdelt_direct - INFO - Processing from 2025-07-21 00:00:00 to 2025-07-22 00:00:00
+2026-01-12 17:28:37,807 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250716_20250717.csv
+2026-01-12 17:28:37,807 - fetchers.gdelt_direct - INFO - Processing from 2025-07-22 00:00:00 to 2025-07-23 00:00:00
+2026-01-12 17:28:37,811 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250717_20250718.csv
+2026-01-12 17:28:37,812 - fetchers.gdelt_direct - INFO - Processing from 2025-07-23 00:00:00 to 2025-07-24 00:00:00
+2026-01-12 17:28:40,249 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250720_20250721.csv
+2026-01-12 17:28:40,252 - fetchers.gdelt_direct - INFO - Processing from 2025-07-24 00:00:00 to 2025-07-25 00:00:00
+2026-01-12 17:28:45,958 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250721_20250722.csv
+2026-01-12 17:28:45,964 - fetchers.gdelt_direct - INFO - Processing from 2025-07-25 00:00:00 to 2025-07-26 00:00:00
+2026-01-12 17:28:49,779 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250724_20250725.csv
+2026-01-12 17:28:49,784 - fetchers.gdelt_direct - INFO - Processing from 2025-07-26 00:00:00 to 2025-07-27 00:00:00
+2026-01-12 17:28:49,805 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250723_20250724.csv
+2026-01-12 17:28:49,810 - fetchers.gdelt_direct - INFO - Processing from 2025-07-27 00:00:00 to 2025-07-28 00:00:00
+2026-01-12 17:28:49,810 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250722_20250723.csv
+2026-01-12 17:28:49,814 - fetchers.gdelt_direct - INFO - Processing from 2025-07-28 00:00:00 to 2025-07-29 00:00:00
+2026-01-12 17:28:51,267 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250725_20250726.csv
+2026-01-12 17:28:51,269 - fetchers.gdelt_direct - INFO - Processing from 2025-07-29 00:00:00 to 2025-07-30 00:00:00
+2026-01-12 17:28:58,137 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250728_20250729.csv
+2026-01-12 17:28:58,144 - fetchers.gdelt_direct - INFO - Processing from 2025-07-30 00:00:00 to 2025-07-31 00:00:00
+2026-01-12 17:28:59,546 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250726_20250727.csv
+2026-01-12 17:28:59,549 - fetchers.gdelt_direct - INFO - Processing from 2025-07-31 00:00:00 to 2025-08-01 00:00:00
+2026-01-12 17:29:00,985 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250727_20250728.csv
+2026-01-12 17:29:00,989 - fetchers.gdelt_direct - INFO - Processing from 2025-08-01 00:00:00 to 2025-08-02 00:00:00
+2026-01-12 17:29:00,994 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250729_20250730.csv
+2026-01-12 17:29:00,997 - fetchers.gdelt_direct - INFO - Processing from 2025-08-02 00:00:00 to 2025-08-03 00:00:00
+2026-01-12 17:29:02,905 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250730_20250731.csv
+2026-01-12 17:29:02,908 - fetchers.gdelt_direct - INFO - Processing from 2025-08-03 00:00:00 to 2025-08-04 00:00:00
+2026-01-12 17:29:04,181 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250731_20250801.csv
+2026-01-12 17:29:04,183 - fetchers.gdelt_direct - INFO - Processing from 2025-08-04 00:00:00 to 2025-08-05 00:00:00
+2026-01-12 17:29:05,769 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250801_20250802.csv
+2026-01-12 17:29:05,771 - fetchers.gdelt_direct - INFO - Processing from 2025-08-05 00:00:00 to 2025-08-06 00:00:00
+2026-01-12 17:29:06,163 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250802_20250803.csv
+2026-01-12 17:29:06,164 - fetchers.gdelt_direct - INFO - Processing from 2025-08-06 00:00:00 to 2025-08-07 00:00:00
+2026-01-12 17:29:07,259 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250803_20250804.csv
+2026-01-12 17:29:07,261 - fetchers.gdelt_direct - INFO - Processing from 2025-08-07 00:00:00 to 2025-08-08 00:00:00
+2026-01-12 17:29:08,714 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250804_20250805.csv
+2026-01-12 17:29:08,716 - fetchers.gdelt_direct - INFO - Processing from 2025-08-08 00:00:00 to 2025-08-09 00:00:00
+2026-01-12 17:29:12,047 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250806_20250807.csv
+2026-01-12 17:29:12,051 - fetchers.gdelt_direct - INFO - Processing from 2025-08-09 00:00:00 to 2025-08-10 00:00:00
+2026-01-12 17:29:13,244 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250808_20250809.csv
+2026-01-12 17:29:13,246 - fetchers.gdelt_direct - INFO - Processing from 2025-08-10 00:00:00 to 2025-08-11 00:00:00
+2026-01-12 17:29:13,837 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250807_20250808.csv
+2026-01-12 17:29:13,841 - fetchers.gdelt_direct - INFO - Processing from 2025-08-11 00:00:00 to 2025-08-12 00:00:00
+2026-01-12 17:29:15,235 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250805_20250806.csv
+2026-01-12 17:29:15,238 - fetchers.gdelt_direct - INFO - Processing from 2025-08-12 00:00:00 to 2025-08-13 00:00:00
+2026-01-12 17:29:15,819 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250809_20250810.csv
+2026-01-12 17:29:15,820 - fetchers.gdelt_direct - INFO - Processing from 2025-08-13 00:00:00 to 2025-08-14 00:00:00
+2026-01-12 17:29:17,849 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250810_20250811.csv
+2026-01-12 17:29:17,850 - fetchers.gdelt_direct - INFO - Processing from 2025-08-14 00:00:00 to 2025-08-15 00:00:00
+2026-01-12 17:29:21,056 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250812_20250813.csv
+2026-01-12 17:29:21,063 - fetchers.gdelt_direct - INFO - Processing from 2025-08-15 00:00:00 to 2025-08-16 00:00:00
+2026-01-12 17:29:23,386 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250811_20250812.csv
+2026-01-12 17:29:23,389 - fetchers.gdelt_direct - INFO - Processing from 2025-08-16 00:00:00 to 2025-08-17 00:00:00
+2026-01-12 17:29:23,397 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250813_20250814.csv
+2026-01-12 17:29:23,400 - fetchers.gdelt_direct - INFO - Processing from 2025-08-17 00:00:00 to 2025-08-18 00:00:00
+2026-01-12 17:29:24,292 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250814_20250815.csv
+2026-01-12 17:29:24,297 - fetchers.gdelt_direct - INFO - Processing from 2025-08-18 00:00:00 to 2025-08-19 00:00:00
+2026-01-12 17:29:25,290 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250815_20250816.csv
+2026-01-12 17:29:25,292 - fetchers.gdelt_direct - INFO - Processing from 2025-08-19 00:00:00 to 2025-08-20 00:00:00
+2026-01-12 17:29:29,952 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250817_20250818.csv
+2026-01-12 17:29:29,954 - fetchers.gdelt_direct - INFO - Processing from 2025-08-20 00:00:00 to 2025-08-21 00:00:00
+2026-01-12 17:29:32,630 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250819_20250820.csv
+2026-01-12 17:29:32,634 - fetchers.gdelt_direct - INFO - Processing from 2025-08-21 00:00:00 to 2025-08-22 00:00:00
+2026-01-12 17:29:32,640 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250818_20250819.csv
+2026-01-12 17:29:32,645 - fetchers.gdelt_direct - INFO - Processing from 2025-08-22 00:00:00 to 2025-08-23 00:00:00
+2026-01-12 17:29:33,283 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250816_20250817.csv
+2026-01-12 17:29:33,288 - fetchers.gdelt_direct - INFO - Processing from 2025-08-23 00:00:00 to 2025-08-24 00:00:00
+2026-01-12 17:29:34,770 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250820_20250821.csv
+2026-01-12 17:29:34,773 - fetchers.gdelt_direct - INFO - Processing from 2025-08-24 00:00:00 to 2025-08-25 00:00:00
+2026-01-12 17:29:39,007 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250823_20250824.csv
+2026-01-12 17:29:39,009 - fetchers.gdelt_direct - INFO - Processing from 2025-08-25 00:00:00 to 2025-08-26 00:00:00
+2026-01-12 17:29:40,061 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250821_20250822.csv
+2026-01-12 17:29:40,063 - fetchers.gdelt_direct - INFO - Processing from 2025-08-26 00:00:00 to 2025-08-27 00:00:00
+2026-01-12 17:29:40,081 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250824_20250825.csv
+2026-01-12 17:29:40,084 - fetchers.gdelt_direct - INFO - Processing from 2025-08-27 00:00:00 to 2025-08-28 00:00:00
+2026-01-12 17:29:40,666 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250822_20250823.csv
+2026-01-12 17:29:40,669 - fetchers.gdelt_direct - INFO - Processing from 2025-08-28 00:00:00 to 2025-08-29 00:00:00
+2026-01-12 17:29:43,472 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250825_20250826.csv
+2026-01-12 17:29:43,474 - fetchers.gdelt_direct - INFO - Processing from 2025-08-29 00:00:00 to 2025-08-30 00:00:00
+2026-01-12 17:29:46,400 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250826_20250827.csv
+2026-01-12 17:29:46,415 - fetchers.gdelt_direct - INFO - Processing from 2025-08-30 00:00:00 to 2025-08-31 00:00:00
+2026-01-12 17:29:48,481 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250829_20250830.csv
+2026-01-12 17:29:48,483 - fetchers.gdelt_direct - INFO - Processing from 2025-08-31 00:00:00 to 2025-09-01 00:00:00
+2026-01-12 17:29:48,503 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250828_20250829.csv
+2026-01-12 17:29:48,505 - fetchers.gdelt_direct - INFO - Processing from 2025-09-01 00:00:00 to 2025-09-02 00:00:00
+2026-01-12 17:29:49,384 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250827_20250828.csv
+2026-01-12 17:29:49,389 - fetchers.gdelt_direct - INFO - Processing from 2025-09-02 00:00:00 to 2025-09-03 00:00:00
+2026-01-12 17:29:50,189 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250830_20250831.csv
+2026-01-12 17:29:50,190 - fetchers.gdelt_direct - INFO - Processing from 2025-09-03 00:00:00 to 2025-09-04 00:00:00
+2026-01-12 17:29:54,617 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250831_20250901.csv
+2026-01-12 17:29:54,619 - fetchers.gdelt_direct - INFO - Processing from 2025-09-04 00:00:00 to 2025-09-05 00:00:00
+2026-01-12 17:29:57,509 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250901_20250902.csv
+2026-01-12 17:29:57,525 - fetchers.gdelt_direct - INFO - Processing from 2025-09-05 00:00:00 to 2025-09-06 00:00:00
+2026-01-12 17:29:57,706 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250903_20250904.csv
+2026-01-12 17:29:57,715 - fetchers.gdelt_direct - INFO - Processing from 2025-09-06 00:00:00 to 2025-09-07 00:00:00
+2026-01-12 17:29:58,753 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250902_20250903.csv
+2026-01-12 17:29:58,757 - fetchers.gdelt_direct - INFO - Processing from 2025-09-07 00:00:00 to 2025-09-08 00:00:00
+2026-01-12 17:30:00,171 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250904_20250905.csv
+2026-01-12 17:30:00,173 - fetchers.gdelt_direct - INFO - Processing from 2025-09-08 00:00:00 to 2025-09-09 00:00:00
+2026-01-12 17:30:03,226 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250906_20250907.csv
+2026-01-12 17:30:03,229 - fetchers.gdelt_direct - INFO - Processing from 2025-09-09 00:00:00 to 2025-09-10 00:00:00
+2026-01-12 17:30:03,257 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250905_20250906.csv
+2026-01-12 17:30:03,260 - fetchers.gdelt_direct - INFO - Processing from 2025-09-10 00:00:00 to 2025-09-11 00:00:00
+2026-01-12 17:30:04,049 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250907_20250908.csv
+2026-01-12 17:30:04,052 - fetchers.gdelt_direct - INFO - Processing from 2025-09-11 00:00:00 to 2025-09-12 00:00:00
+2026-01-12 17:30:05,573 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250908_20250909.csv
+2026-01-12 17:30:05,576 - fetchers.gdelt_direct - INFO - Processing from 2025-09-12 00:00:00 to 2025-09-13 00:00:00
+2026-01-12 17:30:10,198 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250909_20250910.csv
+2026-01-12 17:30:10,202 - fetchers.gdelt_direct - INFO - Processing from 2025-09-13 00:00:00 to 2025-09-14 00:00:00
+2026-01-12 17:30:10,233 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250912_20250913.csv
+2026-01-12 17:30:10,235 - fetchers.gdelt_direct - INFO - Processing from 2025-09-14 00:00:00 to 2025-09-15 00:00:00
+2026-01-12 17:30:12,731 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250911_20250912.csv
+2026-01-12 17:30:12,733 - fetchers.gdelt_direct - INFO - Processing from 2025-09-15 00:00:00 to 2025-09-16 00:00:00
+2026-01-12 17:30:12,744 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250910_20250911.csv
+2026-01-12 17:30:12,748 - fetchers.gdelt_direct - INFO - Processing from 2025-09-16 00:00:00 to 2025-09-17 00:00:00
+2026-01-12 17:30:15,021 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250913_20250914.csv
+2026-01-12 17:30:15,023 - fetchers.gdelt_direct - INFO - Processing from 2025-09-17 00:00:00 to 2025-09-18 00:00:00
+2026-01-12 17:30:15,392 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250914_20250915.csv
+2026-01-12 17:30:15,394 - fetchers.gdelt_direct - INFO - Processing from 2025-09-18 00:00:00 to 2025-09-19 00:00:00
+2026-01-12 17:30:20,564 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250916_20250917.csv
+2026-01-12 17:30:20,572 - fetchers.gdelt_direct - INFO - Processing from 2025-09-19 00:00:00 to 2025-09-20 00:00:00
+2026-01-12 17:30:23,776 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250918_20250919.csv
+2026-01-12 17:30:23,780 - fetchers.gdelt_direct - INFO - Processing from 2025-09-20 00:00:00 to 2025-09-21 00:00:00
+2026-01-12 17:30:23,792 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250917_20250918.csv
+2026-01-12 17:30:23,796 - fetchers.gdelt_direct - INFO - Processing from 2025-09-21 00:00:00 to 2025-09-22 00:00:00
+2026-01-12 17:30:23,809 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250915_20250916.csv
+2026-01-12 17:30:23,811 - fetchers.gdelt_direct - INFO - Processing from 2025-09-22 00:00:00 to 2025-09-23 00:00:00
+2026-01-12 17:30:25,027 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250919_20250920.csv
+2026-01-12 17:30:25,031 - fetchers.gdelt_direct - INFO - Processing from 2025-09-23 00:00:00 to 2025-09-24 00:00:00
+2026-01-12 17:30:30,385 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250920_20250921.csv
+2026-01-12 17:30:30,388 - fetchers.gdelt_direct - INFO - Processing from 2025-09-24 00:00:00 to 2025-09-25 00:00:00
+2026-01-12 17:30:32,472 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250923_20250924.csv
+2026-01-12 17:30:32,474 - fetchers.gdelt_direct - INFO - Processing from 2025-09-25 00:00:00 to 2025-09-26 00:00:00
+2026-01-12 17:30:33,740 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250921_20250922.csv
+2026-01-12 17:30:33,743 - fetchers.gdelt_direct - INFO - Processing from 2025-09-26 00:00:00 to 2025-09-27 00:00:00
+2026-01-12 17:30:33,746 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250922_20250923.csv
+2026-01-12 17:30:33,751 - fetchers.gdelt_direct - INFO - Processing from 2025-09-27 00:00:00 to 2025-09-28 00:00:00
+2026-01-12 17:30:34,625 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250924_20250925.csv
+2026-01-12 17:30:34,626 - fetchers.gdelt_direct - INFO - Processing from 2025-09-28 00:00:00 to 2025-09-29 00:00:00
+2026-01-12 17:30:36,783 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250925_20250926.csv
+2026-01-12 17:30:36,785 - fetchers.gdelt_direct - INFO - Processing from 2025-09-29 00:00:00 to 2025-09-30 00:00:00
+2026-01-12 17:30:37,965 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250926_20250927.csv
+2026-01-12 17:30:37,966 - fetchers.gdelt_direct - INFO - Processing from 2025-09-30 00:00:00 to 2025-10-01 00:00:00
+2026-01-12 17:30:39,633 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250927_20250928.csv
+2026-01-12 17:30:39,647 - fetchers.gdelt_direct - INFO - Processing from 2025-10-01 00:00:00 to 2025-10-02 00:00:00
+2026-01-12 17:30:39,737 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250928_20250929.csv
+2026-01-12 17:30:39,743 - fetchers.gdelt_direct - INFO - Processing from 2025-10-02 00:00:00 to 2025-10-03 00:00:00
+2026-01-12 17:30:41,370 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250929_20250930.csv
+2026-01-12 17:30:41,371 - fetchers.gdelt_direct - INFO - Processing from 2025-10-03 00:00:00 to 2025-10-04 00:00:00
+2026-01-12 17:30:44,556 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20250930_20251001.csv
+2026-01-12 17:30:44,557 - fetchers.gdelt_direct - INFO - Processing from 2025-10-04 00:00:00 to 2025-10-05 00:00:00
+2026-01-12 17:30:46,573 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251002_20251003.csv
+2026-01-12 17:30:46,576 - fetchers.gdelt_direct - INFO - Processing from 2025-10-05 00:00:00 to 2025-10-06 00:00:00
+2026-01-12 17:30:47,504 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251003_20251004.csv
+2026-01-12 17:30:47,519 - fetchers.gdelt_direct - INFO - Processing from 2025-10-06 00:00:00 to 2025-10-07 00:00:00
+2026-01-12 17:30:47,601 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251001_20251002.csv
+2026-01-12 17:30:47,604 - fetchers.gdelt_direct - INFO - Processing from 2025-10-07 00:00:00 to 2025-10-08 00:00:00
+2026-01-12 17:30:48,355 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251004_20251005.csv
+2026-01-12 17:30:48,356 - fetchers.gdelt_direct - INFO - Processing from 2025-10-08 00:00:00 to 2025-10-09 00:00:00
+2026-01-12 17:30:51,174 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251005_20251006.csv
+2026-01-12 17:30:51,176 - fetchers.gdelt_direct - INFO - Processing from 2025-10-09 00:00:00 to 2025-10-10 00:00:00
+2026-01-12 17:30:55,579 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251008_20251009.csv
+2026-01-12 17:30:55,588 - fetchers.gdelt_direct - INFO - Processing from 2025-10-10 00:00:00 to 2025-10-11 00:00:00
+2026-01-12 17:30:56,943 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251007_20251008.csv
+2026-01-12 17:30:56,947 - fetchers.gdelt_direct - INFO - Processing from 2025-10-11 00:00:00 to 2025-10-12 00:00:00
+2026-01-12 17:30:58,215 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251009_20251010.csv
+2026-01-12 17:30:58,218 - fetchers.gdelt_direct - INFO - Processing from 2025-10-12 00:00:00 to 2025-10-13 00:00:00
+2026-01-12 17:30:58,235 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251006_20251007.csv
+2026-01-12 17:30:58,238 - fetchers.gdelt_direct - INFO - Processing from 2025-10-13 00:00:00 to 2025-10-14 00:00:00
+2026-01-12 17:30:59,663 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251010_20251011.csv
+2026-01-12 17:30:59,664 - fetchers.gdelt_direct - INFO - Processing from 2025-10-14 00:00:00 to 2025-10-15 00:00:00
+2026-01-12 17:31:00,555 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251011_20251012.csv
+2026-01-12 17:31:00,556 - fetchers.gdelt_direct - INFO - Processing from 2025-10-15 00:00:00 to 2025-10-16 00:00:00
+2026-01-12 17:31:10,223 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251012_20251013.csv
+2026-01-12 17:31:10,231 - fetchers.gdelt_direct - INFO - Processing from 2025-10-16 00:00:00 to 2025-10-17 00:00:00
+2026-01-12 17:31:10,240 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251013_20251014.csv
+2026-01-12 17:31:10,245 - fetchers.gdelt_direct - INFO - Processing from 2025-10-17 00:00:00 to 2025-10-18 00:00:00
+2026-01-12 17:31:10,247 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251014_20251015.csv
+2026-01-12 17:31:10,251 - fetchers.gdelt_direct - INFO - Processing from 2025-10-18 00:00:00 to 2025-10-19 00:00:00
+2026-01-12 17:31:11,639 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251015_20251016.csv
+2026-01-12 17:31:11,650 - fetchers.gdelt_direct - INFO - Processing from 2025-10-19 00:00:00 to 2025-10-20 00:00:00
+2026-01-12 17:31:17,663 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251018_20251019.csv
+2026-01-12 17:31:17,678 - fetchers.gdelt_direct - INFO - Processing from 2025-10-20 00:00:00 to 2025-10-21 00:00:00
+2026-01-12 17:31:17,724 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251017_20251018.csv
+2026-01-12 17:31:17,731 - fetchers.gdelt_direct - INFO - Processing from 2025-10-21 00:00:00 to 2025-10-22 00:00:00
+2026-01-12 17:31:17,808 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251016_20251017.csv
+2026-01-12 17:31:17,816 - fetchers.gdelt_direct - INFO - Processing from 2025-10-22 00:00:00 to 2025-10-23 00:00:00
+2026-01-12 17:31:17,914 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251019_20251020.csv
+2026-01-12 17:31:17,919 - fetchers.gdelt_direct - INFO - Processing from 2025-10-23 00:00:00 to 2025-10-24 00:00:00
+2026-01-12 17:31:27,997 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251021_20251022.csv
+2026-01-12 17:31:28,000 - fetchers.gdelt_direct - INFO - Processing from 2025-10-24 00:00:00 to 2025-10-25 00:00:00
+2026-01-12 17:31:28,007 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251020_20251021.csv
+2026-01-12 17:31:28,011 - fetchers.gdelt_direct - INFO - Processing from 2025-10-25 00:00:00 to 2025-10-26 00:00:00
+2026-01-12 17:31:28,018 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251022_20251023.csv
+2026-01-12 17:31:28,022 - fetchers.gdelt_direct - INFO - Processing from 2025-10-26 00:00:00 to 2025-10-27 00:00:00
+2026-01-12 17:31:28,962 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251023_20251024.csv
+2026-01-12 17:31:28,968 - fetchers.gdelt_direct - INFO - Processing from 2025-10-27 00:00:00 to 2025-10-28 00:00:00
+2026-01-12 17:31:35,726 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251026_20251027.csv
+2026-01-12 17:31:35,730 - fetchers.gdelt_direct - INFO - Processing from 2025-10-28 00:00:00 to 2025-10-29 00:00:00
+2026-01-12 17:31:35,774 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251027_20251028.csv
+2026-01-12 17:31:35,781 - fetchers.gdelt_direct - INFO - Processing from 2025-10-29 00:00:00 to 2025-10-30 00:00:00
+2026-01-12 17:31:36,886 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251024_20251025.csv
+2026-01-12 17:31:36,891 - fetchers.gdelt_direct - INFO - Processing from 2025-10-30 00:00:00 to 2025-10-31 00:00:00
+2026-01-12 17:31:36,900 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251025_20251026.csv
+2026-01-12 17:31:36,909 - fetchers.gdelt_direct - INFO - Processing from 2025-10-31 00:00:00 to 2025-11-01 00:00:00
+2026-01-12 17:31:44,718 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251031_20251101.csv
+2026-01-12 17:31:44,814 - fetchers.gdelt_direct - INFO - Processing from 2025-11-01 00:00:00 to 2025-11-02 00:00:00
+2026-01-12 17:31:45,154 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251028_20251029.csv
+2026-01-12 17:31:45,155 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251029_20251030.csv
+2026-01-12 17:31:45,163 - fetchers.gdelt_direct - INFO - Processing from 2025-11-02 00:00:00 to 2025-11-03 00:00:00
+2026-01-12 17:31:45,170 - fetchers.gdelt_direct - INFO - Processing from 2025-11-03 00:00:00 to 2025-11-04 00:00:00
+2026-01-12 17:31:45,181 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251030_20251031.csv
+2026-01-12 17:31:45,183 - fetchers.gdelt_direct - INFO - Processing from 2025-11-04 00:00:00 to 2025-11-05 00:00:00
+2026-01-12 17:31:48,222 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251101_20251102.csv
+2026-01-12 17:31:48,223 - fetchers.gdelt_direct - INFO - Processing from 2025-11-05 00:00:00 to 2025-11-06 00:00:00
+2026-01-12 17:31:51,549 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251104_20251105.csv
+2026-01-12 17:31:51,552 - fetchers.gdelt_direct - INFO - Processing from 2025-11-06 00:00:00 to 2025-11-07 00:00:00
+2026-01-12 17:31:54,515 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251103_20251104.csv
+2026-01-12 17:31:54,519 - fetchers.gdelt_direct - INFO - Processing from 2025-11-07 00:00:00 to 2025-11-08 00:00:00
+2026-01-12 17:31:54,541 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251105_20251106.csv
+2026-01-12 17:31:54,545 - fetchers.gdelt_direct - INFO - Processing from 2025-11-08 00:00:00 to 2025-11-09 00:00:00
+2026-01-12 17:31:55,458 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251102_20251103.csv
+2026-01-12 17:31:55,463 - fetchers.gdelt_direct - INFO - Processing from 2025-11-09 00:00:00 to 2025-11-10 00:00:00
+2026-01-12 17:31:56,998 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251106_20251107.csv
+2026-01-12 17:31:57,000 - fetchers.gdelt_direct - INFO - Processing from 2025-11-10 00:00:00 to 2025-11-11 00:00:00
+2026-01-12 17:31:57,930 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251107_20251108.csv
+2026-01-12 17:31:57,931 - fetchers.gdelt_direct - INFO - Processing from 2025-11-11 00:00:00 to 2025-11-12 00:00:00
+2026-01-12 17:31:58,937 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251108_20251109.csv
+2026-01-12 17:31:58,939 - fetchers.gdelt_direct - INFO - Processing from 2025-11-12 00:00:00 to 2025-11-13 00:00:00
+2026-01-12 17:32:00,547 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251109_20251110.csv
+2026-01-12 17:32:00,550 - fetchers.gdelt_direct - INFO - Processing from 2025-11-13 00:00:00 to 2025-11-14 00:00:00
+2026-01-12 17:32:02,411 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251110_20251111.csv
+2026-01-12 17:32:02,415 - fetchers.gdelt_direct - INFO - Processing from 2025-11-14 00:00:00 to 2025-11-15 00:00:00
+2026-01-12 17:32:05,947 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251111_20251112.csv
+2026-01-12 17:32:05,947 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251112_20251113.csv
+2026-01-12 17:32:05,950 - fetchers.gdelt_direct - INFO - Processing from 2025-11-15 00:00:00 to 2025-11-16 00:00:00
+2026-01-12 17:32:05,955 - fetchers.gdelt_direct - INFO - Processing from 2025-11-16 00:00:00 to 2025-11-17 00:00:00
+2026-01-12 17:32:06,922 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251113_20251114.csv
+2026-01-12 17:32:06,926 - fetchers.gdelt_direct - INFO - Processing from 2025-11-17 00:00:00 to 2025-11-18 00:00:00
+2026-01-12 17:32:08,282 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251114_20251115.csv
+2026-01-12 17:32:08,285 - fetchers.gdelt_direct - INFO - Processing from 2025-11-18 00:00:00 to 2025-11-19 00:00:00
+2026-01-12 17:32:14,038 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251115_20251116.csv
+2026-01-12 17:32:14,041 - fetchers.gdelt_direct - INFO - Processing from 2025-11-19 00:00:00 to 2025-11-20 00:00:00
+2026-01-12 17:32:14,045 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251116_20251117.csv
+2026-01-12 17:32:14,048 - fetchers.gdelt_direct - INFO - Processing from 2025-11-20 00:00:00 to 2025-11-21 00:00:00
+2026-01-12 17:32:15,660 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251118_20251119.csv
+2026-01-12 17:32:15,663 - fetchers.gdelt_direct - INFO - Processing from 2025-11-21 00:00:00 to 2025-11-22 00:00:00
+2026-01-12 17:32:15,665 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251117_20251118.csv
+2026-01-12 17:32:15,667 - fetchers.gdelt_direct - INFO - Processing from 2025-11-22 00:00:00 to 2025-11-23 00:00:00
+2026-01-12 17:32:20,227 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251119_20251120.csv
+2026-01-12 17:32:20,230 - fetchers.gdelt_direct - INFO - Processing from 2025-11-23 00:00:00 to 2025-11-24 00:00:00
+2026-01-12 17:32:20,231 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251120_20251121.csv
+2026-01-12 17:32:20,234 - fetchers.gdelt_direct - INFO - Processing from 2025-11-24 00:00:00 to 2025-11-25 00:00:00
+2026-01-12 17:32:21,486 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251122_20251123.csv
+2026-01-12 17:32:21,488 - fetchers.gdelt_direct - INFO - Processing from 2025-11-25 00:00:00 to 2025-11-26 00:00:00
+2026-01-12 17:32:21,490 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251121_20251122.csv
+2026-01-12 17:32:21,492 - fetchers.gdelt_direct - INFO - Processing from 2025-11-26 00:00:00 to 2025-11-27 00:00:00
+2026-01-12 17:32:25,313 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251124_20251125.csv
+2026-01-12 17:32:25,315 - fetchers.gdelt_direct - INFO - Processing from 2025-11-27 00:00:00 to 2025-11-28 00:00:00
+2026-01-12 17:32:27,661 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251125_20251126.csv
+2026-01-12 17:32:27,663 - fetchers.gdelt_direct - INFO - Processing from 2025-11-28 00:00:00 to 2025-11-29 00:00:00
+2026-01-12 17:32:28,107 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251123_20251124.csv
+2026-01-12 17:32:28,116 - fetchers.gdelt_direct - INFO - Processing from 2025-11-29 00:00:00 to 2025-11-30 00:00:00
+2026-01-12 17:32:28,137 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251126_20251127.csv
+2026-01-12 17:32:28,139 - fetchers.gdelt_direct - INFO - Processing from 2025-11-30 00:00:00 to 2025-12-01 00:00:00
+2026-01-12 17:32:29,354 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251127_20251128.csv
+2026-01-12 17:32:29,356 - fetchers.gdelt_direct - INFO - Processing from 2025-12-01 00:00:00 to 2025-12-02 00:00:00
+2026-01-12 17:32:31,294 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251128_20251129.csv
+2026-01-12 17:32:31,298 - fetchers.gdelt_direct - INFO - Processing from 2025-12-02 00:00:00 to 2025-12-03 00:00:00
+2026-01-12 17:32:35,433 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251129_20251130.csv
+2026-01-12 17:32:35,436 - fetchers.gdelt_direct - INFO - Processing from 2025-12-03 00:00:00 to 2025-12-04 00:00:00
+2026-01-12 17:32:35,443 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251130_20251201.csv
+2026-01-12 17:32:35,446 - fetchers.gdelt_direct - INFO - Processing from 2025-12-04 00:00:00 to 2025-12-05 00:00:00
+2026-01-12 17:32:36,781 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251201_20251202.csv
+2026-01-12 17:32:36,786 - fetchers.gdelt_direct - INFO - Processing from 2025-12-05 00:00:00 to 2025-12-06 00:00:00
+2026-01-12 17:32:37,512 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251202_20251203.csv
+2026-01-12 17:32:37,514 - fetchers.gdelt_direct - INFO - Processing from 2025-12-06 00:00:00 to 2025-12-07 00:00:00
+2026-01-12 17:32:42,328 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251206_20251207.csv
+2026-01-12 17:32:42,337 - fetchers.gdelt_direct - INFO - Processing from 2025-12-07 00:00:00 to 2025-12-08 00:00:00
+2026-01-12 17:32:42,771 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251205_20251206.csv
+2026-01-12 17:32:42,781 - fetchers.gdelt_direct - INFO - Processing from 2025-12-08 00:00:00 to 2025-12-09 00:00:00
+2026-01-12 17:32:43,309 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251203_20251204.csv
+2026-01-12 17:32:43,336 - fetchers.gdelt_direct - INFO - Processing from 2025-12-09 00:00:00 to 2025-12-10 00:00:00
+2026-01-12 17:32:43,705 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251204_20251205.csv
+2026-01-12 17:32:43,712 - fetchers.gdelt_direct - INFO - Processing from 2025-12-10 00:00:00 to 2025-12-11 00:00:00
+2026-01-12 17:32:45,727 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251207_20251208.csv
+2026-01-12 17:32:45,727 - fetchers.gdelt_direct - INFO - Processing from 2025-12-11 00:00:00 to 2025-12-12 00:00:00
+2026-01-12 17:32:49,539 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251210_20251211.csv
+2026-01-12 17:32:49,542 - fetchers.gdelt_direct - INFO - Processing from 2025-12-12 00:00:00 to 2025-12-13 00:00:00
+2026-01-12 17:32:51,314 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251208_20251209.csv
+2026-01-12 17:32:51,319 - fetchers.gdelt_direct - INFO - Processing from 2025-12-13 00:00:00 to 2025-12-14 00:00:00
+2026-01-12 17:32:52,404 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251211_20251212.csv
+2026-01-12 17:32:52,408 - fetchers.gdelt_direct - INFO - Processing from 2025-12-14 00:00:00 to 2025-12-15 00:00:00
+2026-01-12 17:32:52,425 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251209_20251210.csv
+2026-01-12 17:32:52,429 - fetchers.gdelt_direct - INFO - Processing from 2025-12-15 00:00:00 to 2025-12-16 00:00:00
+2026-01-12 17:32:53,739 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251212_20251213.csv
+2026-01-12 17:32:53,743 - fetchers.gdelt_direct - INFO - Processing from 2025-12-16 00:00:00 to 2025-12-17 00:00:00
+2026-01-12 17:32:54,468 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251213_20251214.csv
+2026-01-12 17:32:54,469 - fetchers.gdelt_direct - INFO - Processing from 2025-12-17 00:00:00 to 2025-12-18 00:00:00
+2026-01-12 17:33:00,883 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251214_20251215.csv
+2026-01-12 17:33:00,888 - fetchers.gdelt_direct - INFO - Processing from 2025-12-18 00:00:00 to 2025-12-19 00:00:00
+2026-01-12 17:33:00,889 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251215_20251216.csv
+2026-01-12 17:33:00,894 - fetchers.gdelt_direct - INFO - Processing from 2025-12-19 00:00:00 to 2025-12-20 00:00:00
+2026-01-12 17:33:02,437 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251217_20251218.csv
+2026-01-12 17:33:02,444 - fetchers.gdelt_direct - INFO - Processing from 2025-12-20 00:00:00 to 2025-12-21 00:00:00
+2026-01-12 17:33:02,454 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251216_20251217.csv
+2026-01-12 17:33:02,462 - fetchers.gdelt_direct - INFO - Processing from 2025-12-21 00:00:00 to 2025-12-22 00:00:00
+2026-01-12 17:33:06,111 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251218_20251219.csv
+2026-01-12 17:33:06,114 - fetchers.gdelt_direct - INFO - Processing from 2025-12-22 00:00:00 to 2025-12-23 00:00:00
+2026-01-12 17:33:06,119 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251219_20251220.csv
+2026-01-12 17:33:06,120 - fetchers.gdelt_direct - INFO - Processing from 2025-12-23 00:00:00 to 2025-12-24 00:00:00
+2026-01-12 17:33:07,665 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251221_20251222.csv
+2026-01-12 17:33:07,667 - fetchers.gdelt_direct - INFO - Processing from 2025-12-24 00:00:00 to 2025-12-25 00:00:00
+2026-01-12 17:33:08,171 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251220_20251221.csv
+2026-01-12 17:33:08,177 - fetchers.gdelt_direct - INFO - Processing from 2025-12-25 00:00:00 to 2025-12-26 00:00:00
+2026-01-12 17:33:11,101 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251223_20251224.csv
+2026-01-12 17:33:11,104 - fetchers.gdelt_direct - INFO - Processing from 2025-12-26 00:00:00 to 2025-12-27 00:00:00
+2026-01-12 17:33:11,104 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251222_20251223.csv
+2026-01-12 17:33:11,108 - fetchers.gdelt_direct - INFO - Processing from 2025-12-27 00:00:00 to 2025-12-28 00:00:00
+2026-01-12 17:33:12,481 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251224_20251225.csv
+2026-01-12 17:33:12,484 - fetchers.gdelt_direct - INFO - Processing from 2025-12-28 00:00:00 to 2025-12-29 00:00:00
+2026-01-12 17:33:12,484 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251225_20251226.csv
+2026-01-12 17:33:12,488 - fetchers.gdelt_direct - INFO - Processing from 2025-12-29 00:00:00 to 2025-12-30 00:00:00
+2026-01-12 17:33:14,894 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251227_20251228.csv
+2026-01-12 17:33:14,894 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251226_20251227.csv
+2026-01-12 17:33:14,895 - fetchers.gdelt_direct - INFO - Processing from 2025-12-30 00:00:00 to 2025-12-31 00:00:00
+2026-01-12 17:33:14,897 - fetchers.gdelt_direct - INFO - Processing from 2025-12-31 00:00:00 to 2026-01-01 00:00:00
+2026-01-12 17:33:17,583 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251228_20251229.csv
+2026-01-12 17:33:17,587 - fetchers.gdelt_direct - INFO - Processing from 2026-01-01 00:00:00 to 2026-01-02 00:00:00
+2026-01-12 17:33:18,160 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251229_20251230.csv
+2026-01-12 17:33:18,162 - fetchers.gdelt_direct - INFO - Processing from 2026-01-02 00:00:00 to 2026-01-03 00:00:00
+2026-01-12 17:33:19,805 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251231_20260101.csv
+2026-01-12 17:33:19,806 - fetchers.gdelt_direct - INFO - Processing from 2026-01-03 00:00:00 to 2026-01-04 00:00:00
+2026-01-12 17:33:19,810 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20251230_20251231.csv
+2026-01-12 17:33:19,813 - fetchers.gdelt_direct - INFO - Processing from 2026-01-04 00:00:00 to 2026-01-05 00:00:00
+2026-01-12 17:33:21,087 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260101_20260102.csv
+2026-01-12 17:33:21,091 - fetchers.gdelt_direct - INFO - Processing from 2026-01-05 00:00:00 to 2026-01-06 00:00:00
+2026-01-12 17:33:22,121 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260102_20260103.csv
+2026-01-12 17:33:22,123 - fetchers.gdelt_direct - INFO - Processing from 2026-01-06 00:00:00 to 2026-01-07 00:00:00
+2026-01-12 17:33:25,388 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260103_20260104.csv
+2026-01-12 17:33:25,390 - fetchers.gdelt_direct - INFO - Processing from 2026-01-07 00:00:00 to 2026-01-08 00:00:00
+2026-01-12 17:33:26,220 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260104_20260105.csv
+2026-01-12 17:33:26,224 - fetchers.gdelt_direct - INFO - Processing from 2026-01-08 00:00:00 to 2026-01-09 00:00:00
+2026-01-12 17:33:27,375 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260105_20260106.csv
+2026-01-12 17:33:27,379 - fetchers.gdelt_direct - INFO - Processing from 2026-01-09 00:00:00 to 2026-01-10 00:00:00
+2026-01-12 17:33:28,113 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260106_20260107.csv
+2026-01-12 17:33:28,117 - fetchers.gdelt_direct - INFO - Processing from 2026-01-10 00:00:00 to 2026-01-11 00:00:00
+2026-01-12 17:33:32,568 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260108_20260109.csv
+2026-01-12 17:33:32,572 - fetchers.gdelt_direct - INFO - Processing from 2026-01-11 00:00:00 to 2026-01-12 00:00:00
+2026-01-12 17:33:32,582 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260110_20260111.csv
+2026-01-12 17:33:32,587 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260107_20260108.csv
+2026-01-12 17:33:32,594 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260109_20260110.csv
+2026-01-12 17:33:34,559 - fetchers.gdelt_direct - INFO - Results saved to data/gdelt/gdelt_direct_20260111_20260112.csv
+2026-01-12 17:33:34,694 - utils.helpers - INFO - Successfully fetched 16411 GDELT records
+2026-01-12 17:33:34,694 - utils.helpers - INFO - Fetching stock data...
+2026-01-12 17:33:34,695 - fetchers.stock - INFO - Fetching data for XOM Stock (XOM)
+2026-01-12 17:33:35,350 - fetchers.stock - INFO - Stock data saved to data/stock/xom_stock.csv
+2026-01-12 17:33:35,350 - utils.helpers - INFO - Successfully fetched stock data with 124 records
+2026-01-12 17:33:35,350 - utils.helpers - INFO - Starting data processing
+2026-01-12 17:33:35,375 - processors.data_processor - INFO - Processed 16411 GDELT records into 167 daily aggregates
+2026-01-12 17:33:35,376 - processors.data_processor - WARNING - No date column found, using index
+2026-01-12 17:33:35,377 - processors.data_processor - INFO - Processed stock data with 124 records
+2026-01-12 17:33:35,379 - processors.data_processor - INFO - Merged datasets resulting in 114 records
+2026-01-12 17:33:35,380 - processors.data_processor - INFO - Calculated differences for 113 records
+2026-01-12 17:33:35,380 - utils.helpers - INFO - Final processed dataset contains 113 records
+2026-01-12 17:33:35,380 - utils.helpers - INFO - Starting analysis
+2026-01-12 17:33:35,383 - analyzers.data_analyzer - INFO - Correlation: -0.004
+2026-01-12 17:33:35,383 - analyzers.data_analyzer - INFO - Differences correlation: -0.024
+2026-01-12 17:33:35,386 - analyzers.data_analyzer - INFO - Level regression - R²: 0.000, p-value: 0.9657
+2026-01-12 17:33:35,387 - analyzers.data_analyzer - INFO - Differences regression - R²: 0.001, p-value: 0.8020
+2026-01-12 17:33:35,805 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:33:35,808 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:33:35,812 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:33:35,814 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:33:36,083 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:33:36,084 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:33:36,139 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:33:36,141 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-01-12 17:33:36,695 - utils.helpers - INFO - Analysis results saved to data/results/analysis_results.json
+2026-01-12 17:33:36,696 - utils.helpers - INFO - Merged data saved to data/results/merged_data.csv
+2026-01-12 17:33:36,696 - utils.helpers - INFO - Analysis complete!

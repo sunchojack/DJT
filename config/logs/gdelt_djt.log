@@ -1,0 +1,59 @@
+2026-01-07 19:57:15,398 - utils.helpers - INFO - Starting complete GDELT vs DJT analysis
+2026-01-07 19:57:15,399 - utils.helpers - INFO - Starting data fetching process
+2026-01-07 19:57:15,400 - utils.helpers - INFO - Fetching GDELT data...
+2026-01-07 19:57:15,401 - fetchers.gdelt_direct - INFO - Processing from 2024-01-01 00:00:00 to 2024-01-03 00:00:00
+2026-01-07 19:57:15,406 - fetchers.gdelt_direct - INFO - Processing from 2024-01-04 00:00:00 to 2024-01-06 00:00:00
+2026-01-07 19:57:15,408 - fetchers.gdelt_direct - INFO - Processing from 2024-01-07 00:00:00 to 2024-01-09 00:00:00
+2026-01-07 19:57:15,412 - fetchers.gdelt_direct - INFO - Processing from 2024-01-10 00:00:00 to 2024-01-12 00:00:00
+2026-01-07 19:58:09,543 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240104_20240106.csv
+2026-01-07 19:58:09,571 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240101_20240103.csv
+2026-01-07 19:58:09,697 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240107_20240109.csv
+2026-01-07 19:58:09,716 - fetchers.gdelt_direct - INFO - Processing from 2024-01-13 00:00:00 to 2024-01-15 00:00:00
+2026-01-07 19:58:09,728 - fetchers.gdelt_direct - INFO - Processing from 2024-01-16 00:00:00 to 2024-01-18 00:00:00
+2026-01-07 19:58:09,734 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240110_20240112.csv
+2026-01-07 19:58:09,917 - fetchers.gdelt_direct - INFO - Processing from 2024-01-19 00:00:00 to 2024-01-21 00:00:00
+2026-01-07 19:58:09,917 - fetchers.gdelt_direct - INFO - Processing from 2024-01-22 00:00:00 to 2024-01-24 00:00:00
+2026-01-07 19:58:48,243 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240122_20240124.csv
+2026-01-07 19:58:48,261 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240116_20240118.csv
+2026-01-07 19:58:48,273 - fetchers.gdelt_direct - INFO - Processing from 2024-01-25 00:00:00 to 2024-01-27 00:00:00
+2026-01-07 19:58:48,284 - fetchers.gdelt_direct - INFO - Processing from 2024-01-28 00:00:00 to 2024-01-30 00:00:00
+2026-01-07 19:58:48,302 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240113_20240115.csv
+2026-01-07 19:58:48,324 - fetchers.gdelt_direct - INFO - Processing from 2024-01-31 00:00:00 to 2024-02-02 00:00:00
+2026-01-07 19:58:48,325 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240119_20240121.csv
+2026-01-07 19:58:48,344 - fetchers.gdelt_direct - INFO - Processing from 2024-02-03 00:00:00 to 2024-02-05 00:00:00
+2026-01-07 19:59:01,693 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240131_20240202.csv
+2026-01-07 19:59:01,699 - fetchers.gdelt_direct - INFO - Processing from 2024-02-06 00:00:00 to 2024-02-08 00:00:00
+2026-01-07 19:59:01,708 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240125_20240127.csv
+2026-01-07 19:59:01,714 - fetchers.gdelt_direct - INFO - Processing from 2024-02-09 00:00:00 to 2024-02-11 00:00:00
+2026-01-07 19:59:04,392 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240203_20240205.csv
+2026-01-07 19:59:04,398 - fetchers.gdelt_direct - INFO - Processing from 2024-02-12 00:00:00 to 2024-02-14 00:00:00
+2026-01-07 19:59:04,523 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240128_20240130.csv
+2026-01-07 19:59:04,532 - fetchers.gdelt_direct - INFO - Processing from 2024-02-15 00:00:00 to 2024-02-17 00:00:00
+2026-01-07 19:59:11,589 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240209_20240211.csv
+2026-01-07 19:59:11,597 - fetchers.gdelt_direct - INFO - Processing from 2024-02-18 00:00:00 to 2024-02-20 00:00:00
+2026-01-07 19:59:11,610 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240206_20240208.csv
+2026-01-07 19:59:11,612 - fetchers.gdelt_direct - INFO - Processing from 2024-02-21 00:00:00 to 2024-02-23 00:00:00
+2026-01-07 19:59:16,888 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240215_20240217.csv
+2026-01-07 19:59:16,900 - fetchers.gdelt_direct - INFO - Processing from 2024-02-24 00:00:00 to 2024-02-26 00:00:00
+2026-01-07 19:59:16,903 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240212_20240214.csv
+2026-01-07 19:59:16,907 - fetchers.gdelt_direct - INFO - Processing from 2024-02-27 00:00:00 to 2024-02-29 00:00:00
+2026-01-07 19:59:25,022 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240218_20240220.csv
+2026-01-07 19:59:25,028 - fetchers.gdelt_direct - INFO - Processing from 2024-03-01 00:00:00 to 2024-03-03 00:00:00
+2026-01-07 19:59:25,037 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240221_20240223.csv
+2026-01-07 19:59:25,050 - fetchers.gdelt_direct - INFO - Processing from 2024-03-04 00:00:00 to 2024-03-06 00:00:00
+2026-01-07 19:59:31,622 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240227_20240229.csv
+2026-01-07 19:59:31,625 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240224_20240226.csv
+2026-01-07 19:59:31,645 - fetchers.gdelt_direct - INFO - Processing from 2024-03-07 00:00:00 to 2024-03-09 00:00:00
+2026-01-07 19:59:31,664 - fetchers.gdelt_direct - INFO - Processing from 2024-03-10 00:00:00 to 2024-03-12 00:00:00
+2026-01-07 19:59:36,987 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240301_20240303.csv
+2026-01-07 19:59:37,013 - fetchers.gdelt_direct - INFO - Processing from 2024-03-13 00:00:00 to 2024-03-15 00:00:00
+2026-01-07 19:59:37,069 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240304_20240306.csv
+2026-01-07 19:59:37,138 - fetchers.gdelt_direct - INFO - Processing from 2024-03-16 00:00:00 to 2024-03-18 00:00:00
+2026-01-07 19:59:39,648 - fetchers.gdelt_direct - ERROR - Error processing dates 2024-03-13 00:00:00 to 2024-03-15 00:00:00: A process in the process pool was terminated abruptly while the future was running or pending.
+2026-01-07 19:59:39,649 - fetchers.gdelt_direct - ERROR - Error processing dates 2024-03-16 00:00:00 to 2024-03-18 00:00:00: A process in the process pool was terminated abruptly while the future was running or pending.
+2026-01-07 19:59:39,649 - fetchers.gdelt_direct - INFO - Processing from 2024-03-19 00:00:00 to 2024-03-21 00:00:00
+2026-01-07 19:59:39,650 - fetchers.gdelt_direct - INFO - Processing from 2024-03-22 00:00:00 to 2024-03-24 00:00:00
+2026-01-07 19:59:42,727 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240310_20240312.csv
+2026-01-07 19:59:42,729 - fetchers.gdelt_direct - INFO - Results saved to data/raw/gdelt_direct_20240307_20240309.csv
+2026-01-07 19:59:42,738 - fetchers.gdelt_direct - INFO - Processing from 2024-03-25 00:00:00 to 2024-03-27 00:00:00
+2026-01-07 19:59:42,741 - fetchers.gdelt_direct - INFO - Processing from 2024-03-28 00:00:00 to 2024-03-30 00:00:00

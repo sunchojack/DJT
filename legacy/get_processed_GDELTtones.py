@@ -5,7 +5,7 @@ from scipy import stats
 
 # Load the data
 sentiment = pd.read_csv('workdata/sentiment.csv')
-stock = pd.read_csv('workdata/djt_stock.csv')
+stock = pd.read_csv('workdata/stock.csv')
 
 # def calculate_avg_tone(v2tone_str):
 #     values = v2tone_str.split(',')
