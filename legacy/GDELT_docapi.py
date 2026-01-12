@@ -10,7 +10,7 @@ def main():
 
     # Define the start date and end date
     start_date = datetime.strptime('2024-01-01', '%Y-%m-%d')
-    end_date = datetime.strptime('2024-06-25', '%Y-%m-%d')
+    end_date = datetime.strptime('2024-02-01', '%Y-%m-%d')
 
     # Create a folder for the results if it doesn't exist
     output_folder = 'gdelt_doc_api_daily'

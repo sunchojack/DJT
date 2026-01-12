@@ -7,8 +7,8 @@ from datetime import datetime
 gd2 = gdelt.gdelt(version=2)
 
 def main():
-    # Define the date range from February 1, 2024 to today
-    start_date = '20240201'
+    # Define the date range
+    start_date = '20260101'
     end_date = datetime.now().strftime('%Y%m%d')
 
     # Full day pull, output to pandas dataframe, GKG table
@@ -21,7 +21,7 @@ def main():
     df_filtered = df[df.apply(lambda row: row.astype(str).str.contains('Trump', case=False).any(), axis=1)]
 
     # Save the filtered DataFrame to a CSV file
-    df_filtered.to_csv('gdelt_results_v1.csv', index=False)
+    df_filtered.to_csv('workdata/gdelt_results.csv', index=False)
 
 if __name__ == "__main__":
     main()
