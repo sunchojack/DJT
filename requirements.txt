@@ -1,0 +1,10 @@
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scipy>=1.9.0
+yfinance>=0.1.87
+gdelt>=0.1.14
+gdeltdoc>=1.1.0
+dask>=2022.8.0
+get_all_tickers>=0.2.0
